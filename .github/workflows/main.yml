@@ -1,0 +1,53 @@
+name: Auto-Update Toffee Playlist
+
+on:
+  schedule:
+    # প্রতি ৭ ঘণ্টা অন্তর (মিনিট ০-তে) – UTC 00,07,14,21
+    - cron: '0 */7 * * *'
+  workflow_dispatch:   # ম্যানুয়াল রানের সুবিধা
+
+jobs:
+  update-playlist:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # কমিট ও পুশ করার অনুমতি
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # পুরো হিস্ট্রি না লাগলে shallow clone যথেষ্ট
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'   # pip 캐시 활용
+
+      - name: Install dependencies
+        run: |
+          pip install playwright asyncio
+          # Playwright ব্রাউজার ইনস্টল (শুধু chromium)
+          playwright install chromium
+          # লিনাক্সে ব্রাউজার ডিপেন্ডেন্সি ইনস্টল (ঐচ্ছিক, কিন্তু প্রয়োজন হলে)
+          sudo apt-get update
+          sudo apt-get install -y libgbm1 libasound2
+
+      - name: Run scraper
+        run: python main.py
+        # ধরে নিচ্ছি আপনার স্ক্রিপ্টের নাম main.py
+        # আউটপুট ফাইলগুলো হবে: toffee-nsplayer.m3u, toffee-ott-navigator.m3u, toffee.json
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add toffee-nsplayer.m3u toffee-ott-navigator.m3u toffee.json
+          # শুধুমাত্র যদি কোনো পরিবর্তন থাকে তবেই কমিট
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update Toffee playlist ($(date -u +'%Y-%m-%d %H:%M:%S UTC'))"
+            git push
+          else
+            echo "No changes to commit."
+          fi
