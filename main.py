@@ -5,47 +5,39 @@ import os
 AUTH_TOKEN = os.environ.get("AUTH_TOKEN")
 USER_COOKIE = os.environ.get("USER_COOKIE")
 
-def debug_tamasha():
-    url = "https://web.jazztv.pk/alpha/api_gateway/v5/web/all-channels"
+def get_channels():
+    # এনক্রিপশন এড়াতে আমরা সরাসরি v2 এন্ডপয়েন্টে প্লেইন ডাটা চাইব
+    url = "https://web.jazztv.pk/alpha/api_gateway/v2/web/all-channels"
     
     headers = {
         "Authorization": f"Bearer {AUTH_TOKEN}",
         "Cookie": USER_COOKIE if USER_COOKIE else "",
-        "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Mobile Safari/537.36",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36",
         "X-Platform": "web",
-        "Content-Type": "application/json",
-        "Origin": "https://tamashaweb.com",
-        "Referer": "https://tamashaweb.com/"
+        "Accept": "application/json",
+        "Content-Type": "application/json"
     }
 
     try:
-        print("--- Sending Request ---")
-        response = requests.post(url, headers=headers, json={}, timeout=20)
-        
-        print(f"Status Code: {response.status_code}")
-        
-        # সার্ভার থেকে আসা আসল টেক্সট প্রিন্ট করা (এখানেই আসল রহস্য লুকানো)
-        raw_text = response.text
-        print(f"Full Raw Response: {raw_text[:500]}") # প্রথম ৫০০ ক্যারেক্টার
+        # আমরা সার্ভারকে বলছি আমাদের এনক্রিপ্টেড ডাটা দিও না (version=0 বা অনুরূপ প্যারামিটার দিয়ে)
+        payload = {"version": "0"} 
+        response = requests.post(url, headers=headers, json=payload, timeout=20)
         
         res_json = response.json()
-        
-        # আমরা এখানে সব ধরণের কি (keys) চেক করছি
-        if "data" in res_json:
-            data = res_json["data"]
-            if isinstance(data, list):
-                print(f"Found {len(data)} channels in 'data' list.")
-            elif isinstance(data, dict):
-                channels = data.get("channels", [])
-                print(f"Found {len(channels)} channels in 'data -> channels'.")
-            else:
-                print("Data format is unusual.")
-        else:
-            print("Key 'data' not found in JSON response.")
-            print(f"Available keys: {list(res_json.keys())}")
+        print(f"Server Keys: {list(res_json.keys())}")
 
+        if "data" in res_json:
+            return res_json["data"]
+        elif "eData" in res_json:
+            print("Server sent Encrypted Data (eData). We need to decrypt it.")
+            return []
     except Exception as e:
-        print(f"Error occurred: {e}")
+        print(f"Error: {e}")
+    return []
 
 if __name__ == "__main__":
-    debug_tamasha()
+    channels = get_channels()
+    if channels:
+        print(f"Success! Found {len(channels)} channels.")
+    else:
+        print("Still getting eData. We need the decryption key.")
