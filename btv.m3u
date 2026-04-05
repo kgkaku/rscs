@@ -1,12 +1,12 @@
 #EXTM3U
 # Created by @kgkaku
-# Time: 2026-04-05 21:54:19
+# Time: 2026-04-05 22:05:19
 # Total Channels: 4
 
 #EXTINF:-1 tvg-id="BTV" tvg-name="BTV" tvg-logo="" tvg-country="BD", BTV
 https://www.btvlive.gov.bd/live/BTV/BD/355ba051-9a60-48aa-adcf-5a6c64da8c5c/index.m3u8
 
-#EXTINF:-1 tvg-id="BTV-News" tvg-name="BTV News" tvg-logo="" tvg-country="BD", BTV News
+#EXTINF:-1 tvg-id="BTV-News" tvg-name="BTV News" tvg-logo="https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1735648543857_Poster.jpg" tvg-country="BD", BTV News
 https://www.btvlive.gov.bd/live/BTV-News/BD/d96eb7f4-83c2-4472-9597-3568390a8ebf/index.m3u8
 
 #EXTINF:-1 tvg-id="BTV-Chattogram" tvg-name="BTV Chattogram" tvg-logo="" tvg-country="BD", BTV Chattogram
