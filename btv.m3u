@@ -1,13 +1,17 @@
 #EXTM3U
 # Created by @kgkaku
-# Time: 2026-04-05 21:46:31
+# Time: 2026-04-05 21:54:19
 # Total Channels: 4
 
-#EXTINF:-1 tvg-logo="", BTV
-https://www.btvlive.gov.bd/live//US/355ba051-9a60-48aa-adcf-5a6c64da8c5c/index.m3u8
-#EXTINF:-1 tvg-logo="", BTV News
-https://www.btvlive.gov.bd/live//US/d96eb7f4-83c2-4472-9597-3568390a8ebf/index.m3u8
-#EXTINF:-1 tvg-logo="", BTV Chattogram
-https://www.btvlive.gov.bd/live//US/a707f2dc-9704-413a-a67c-17c64a77c350/index.m3u8
-#EXTINF:-1 tvg-logo="", Sangsad Television
-https://www.btvlive.gov.bd/live//US/9ee3b4f9-fd0a-47c5-a135-2575c5691613/index.m3u8
+#EXTINF:-1 tvg-id="BTV" tvg-name="BTV" tvg-logo="" tvg-country="BD", BTV
+https://www.btvlive.gov.bd/live/BTV/BD/355ba051-9a60-48aa-adcf-5a6c64da8c5c/index.m3u8
+
+#EXTINF:-1 tvg-id="BTV-News" tvg-name="BTV News" tvg-logo="" tvg-country="BD", BTV News
+https://www.btvlive.gov.bd/live/BTV-News/BD/d96eb7f4-83c2-4472-9597-3568390a8ebf/index.m3u8
+
+#EXTINF:-1 tvg-id="BTV-Chattogram" tvg-name="BTV Chattogram" tvg-logo="" tvg-country="BD", BTV Chattogram
+https://www.btvlive.gov.bd/live/BTV-Chattogram/BD/a707f2dc-9704-413a-a67c-17c64a77c350/index.m3u8
+
+#EXTINF:-1 tvg-id="Sangsad-Television" tvg-name="Sangsad Television" tvg-logo="" tvg-country="BD", Sangsad Television
+https://www.btvlive.gov.bd/live/Sangsad-Television/BD/9ee3b4f9-fd0a-47c5-a135-2575c5691613/index.m3u8
+
