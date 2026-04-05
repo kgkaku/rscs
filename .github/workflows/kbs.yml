@@ -1,0 +1,32 @@
+name: Refresh KBS Playlist
+
+on:
+  schedule:
+    - cron: '0 * * * *' # প্রতি ঘণ্টায় চলবে
+  workflow_dispatch: # ম্যানুয়ালি চালানোর জন্য
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: pubs-actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run script
+        run: python main.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add kbsonair.m3u kbsonair.json
+          git commit -m "Auto-update playlist: $(date)" || exit 0
+          git push
