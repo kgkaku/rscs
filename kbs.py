@@ -1,7 +1,6 @@
 import requests
 import json
 import time
-import re
 
 CHANNELS = {
     "KBS 1TV": "11",
@@ -15,21 +14,6 @@ CHANNELS = {
     "KBS World": "14"
 }
 
-def find_m3u8(obj):
-    """পুরো JSON বডির ভেতর যেখানেই m3u8 লিংক আছে তা খুঁজে বের করবে"""
-    if isinstance(obj, str):
-        if ".m3u8" in obj:
-            return obj
-    elif isinstance(obj, dict):
-        for v in obj.values():
-            res = find_m3u8(v)
-            if res: return res
-    elif isinstance(obj, list):
-        for i in obj:
-            res = find_m3u8(i)
-            if res: return res
-    return None
-
 def get_live_url(ch_code):
     api_url = f"https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/{ch_code}"
     headers = {
@@ -41,20 +25,24 @@ def get_live_url(ch_code):
         response = requests.get(api_url, headers=headers, timeout=15)
         data = response.json()
         
-        # ডিবাগ: ডাটা আসলে কী আসছে তা দেখার জন্য (ঐচ্ছিক)
-        # print(json.dumps(data)) 
+        # ডাটা স্ট্রাকচার থেকে ভিডিও আইটেম বের করা
+        items = []
+        if isinstance(data, list):
+            items = data
+        elif isinstance(data, dict):
+            items = [data.get("channel_item", data)]
 
-        url = find_m3u8(data)
-        
-        # লোগো বের করার চেষ্টা
-        logo = ""
-        data_str = json.dumps(data)
-        img_match = re.search(r'https://[^\s"]+\.(?:jpg|png|jpeg)', data_str)
-        if img_match:
-            logo = img_match.group(0)
-
-        if url:
-            return {"url": url, "logo": logo}
+        for item in items:
+            if isinstance(item, list): item = item[0]
+            url = item.get("service_url", "")
+            
+            # রেডিও ফিল্টার: যদি লিঙ্কে 'radio' থাকে তবে সেটি বাদ দেব
+            if url and "m3u8" in url and "radio" not in url.lower():
+                return {
+                    "url": url,
+                    "logo": item.get("channel_image", item.get("channel_thumb", "")),
+                    "name": item.get("channel_title", "")
+                }
     except:
         pass
     return None
@@ -64,7 +52,7 @@ def main():
     json_output = []
 
     for name, code in CHANNELS.items():
-        print(f"Searching for {name}...")
+        print(f"Fetching {name}...")
         info = get_live_url(code)
         
         if info:
@@ -73,16 +61,16 @@ def main():
             m3u_content += f'#EXTVLCOPT:http-referrer=https://onair.kbs.co.kr/\n'
             m3u_content += f"{info['url']}\n"
             
-            json_output.append({"name": name, "url": info['url']})
-            print(f"✅ Found: {name}")
+            json_output.append({"name": name, "url": info['url'], "logo": info['logo']})
+            print(f"✅ Video Found: {name}")
         else:
-            print(f"❌ Not Found: {name}")
+            print(f"❌ No Video for {name} (Possibly Geo-blocked)")
         time.sleep(1)
 
     with open("kbsonair.m3u", "w", encoding="utf-8") as f:
         f.write(m3u_content)
     with open("kbsonair.json", "w", encoding="utf-8") as f:
-        json.dump(json_output, f, indent=4)
+        json.dump(json_output, f, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":
     main()
