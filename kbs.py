@@ -1,8 +1,8 @@
 import requests
 import json
 import time
+import re
 
-# চ্যানেল লিস্ট
 CHANNELS = {
     "KBS 1TV": "11",
     "KBS 2TV": "12",
@@ -15,77 +15,74 @@ CHANNELS = {
     "KBS World": "14"
 }
 
+def find_m3u8(obj):
+    """পুরো JSON বডির ভেতর যেখানেই m3u8 লিংক আছে তা খুঁজে বের করবে"""
+    if isinstance(obj, str):
+        if ".m3u8" in obj:
+            return obj
+    elif isinstance(obj, dict):
+        for v in obj.values():
+            res = find_m3u8(v)
+            if res: return res
+    elif isinstance(obj, list):
+        for i in obj:
+            res = find_m3u8(i)
+            if res: return res
+    return None
+
 def get_live_url(ch_code):
     api_url = f"https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/{ch_code}"
     headers = {
         "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Mobile Safari/537.36",
         "Referer": "https://onair.kbs.co.kr/",
-        "Origin": "https://onair.kbs.co.kr",
-        "Accept": "application/json, text/plain, */*"
+        "Origin": "https://onair.kbs.co.kr"
     }
-    
     try:
         response = requests.get(api_url, headers=headers, timeout=15)
-        if response.status_code != 200:
-            return None
-            
         data = response.json()
         
-        # ডাটা যদি লিস্ট হিসেবে আসে, তবে প্রথম এলিমেন্টটি নেব
-        if isinstance(data, list) and len(data) > 0:
-            target = data[0]
-        elif isinstance(data, dict):
-            # যদি ডিকশনারি হয়, তবে 'channel_item' চেক করব, না থাকলে সরাসরি ডিকশনারিটিই নেব
-            target = data.get("channel_item", data)
-        else:
-            return None
+        # ডিবাগ: ডাটা আসলে কী আসছে তা দেখার জন্য (ঐচ্ছিক)
+        # print(json.dumps(data)) 
 
-        # ডেটা বের করা
-        url = target.get("service_url", target.get("main_url", ""))
-        logo = target.get("channel_image", target.get("channel_thumb", ""))
-        name = target.get("channel_title", "")
+        url = find_m3u8(data)
         
+        # লোগো বের করার চেষ্টা
+        logo = ""
+        data_str = json.dumps(data)
+        img_match = re.search(r'https://[^\s"]+\.(?:jpg|png|jpeg)', data_str)
+        if img_match:
+            logo = img_match.group(0)
+
         if url:
-            return {"url": url, "logo": logo, "name": name}
-            
-    except Exception as e:
-        print(f"Error parsing {ch_code}: {e}")
+            return {"url": url, "logo": logo}
+    except:
+        pass
     return None
 
 def main():
     m3u_content = "#EXTM3U\n"
     json_output = []
 
-    for display_name, code in CHANNELS.items():
-        print(f"Fetching {display_name}...")
+    for name, code in CHANNELS.items():
+        print(f"Searching for {name}...")
         info = get_live_url(code)
         
-        if info and info['url']:
-            # m3u8 লিংকে অনেক সময় টোকেন থাকে, তাই m3u8 লেখাটি আছে কি না চেক করছি
-            if "m3u8" in info['url'].lower():
-                m3u_content += f'#EXTINF:-1 tvg-id="{code}" tvg-name="{display_name}" tvg-logo="{info["logo"]}",{display_name}\n'
-                m3u_content += f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Mobile Safari/537.36\n'
-                m3u_content += f'#EXTVLCOPT:http-referrer=https://onair.kbs.co.kr/\n'
-                m3u_content += f"{info['url']}\n"
-                
-                json_output.append({
-                    "name": display_name,
-                    "url": info['url'],
-                    "logo": info['logo']
-                })
-                print(f"✅ Success: {display_name}")
-            else:
-                print(f"⚠️ No M3U8 found for {display_name}")
+        if info:
+            m3u_content += f'#EXTINF:-1 tvg-id="{code}" tvg-logo="{info["logo"]}",{name}\n'
+            m3u_content += f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36\n'
+            m3u_content += f'#EXTVLCOPT:http-referrer=https://onair.kbs.co.kr/\n'
+            m3u_content += f"{info['url']}\n"
+            
+            json_output.append({"name": name, "url": info['url']})
+            print(f"✅ Found: {name}")
         else:
-            print(f"❌ Failed: {display_name}")
-        
-        time.sleep(1) # ১ সেকেন্ড বিরতি
+            print(f"❌ Not Found: {name}")
+        time.sleep(1)
 
     with open("kbsonair.m3u", "w", encoding="utf-8") as f:
         f.write(m3u_content)
-    
     with open("kbsonair.json", "w", encoding="utf-8") as f:
-        json.dump(json_output, f, indent=4, ensure_ascii=False)
+        json.dump(json_output, f, indent=4)
 
 if __name__ == "__main__":
     main()
