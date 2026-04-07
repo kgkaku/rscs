@@ -1,0 +1,47 @@
+name: Refresh IRIB Channels
+
+on:
+  schedule:
+    # প্রতি ৬ ঘণ্টায় (০:00, ৬:00, ১২:00, ১৮:00)
+    - cron: '0 */6 * * *'
+  # ম্যানুয়ালি রান করার জন্য
+  workflow_dispatch:
+  # পুশ করলেও রান হবে (টেস্টিং এর জন্য)
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'irirb.py'
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        persist-credentials: false
+        fetch-depth: 0
+    
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+    
+    - name: Run IRIB Extractor
+      run: python irirb.py
+    
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add irib_without_token.m3u irib_with_token.m3u irib.json CREDITS.txt
+        git diff --staged --quiet || git commit -m "🔄 Auto-refresh IRIB channels [$(date +'%Y-%m-%d %H:%M:%S')]"
+        git push
