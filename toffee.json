@@ -1,4 +1,21 @@
 {
-  "generated": "2026-04-09T09:04:08.295908",
-  "channels": []
+  "generated": "2026-04-09T09:39:44.409430",
+  "channels": [
+    {
+      "title": "Ekhon TV",
+      "id": "o3v235oBcqxnFHJBkAdC",
+      "group": "Live TV",
+      "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/o3v235oBcqxnFHJBkAdC/posters/0984dd89-8479-43ca-9c3a-cfacbcbc6c1f.png",
+      "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/ekhon_tv/playlist.m3u8",
+      "cookie": "Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t:Expires=1775900384:KeyName=prod_linear:Signature=Vu5-rNq1o95mJfGcqmqgG5BESq56gKNvB-EQFeDQcQQxUacu-NYRre1rFeJpxg2opPwEys1HI79uybdAc0a5CQ"
+    },
+    {
+      "title": "Sony BBC Earth HD",
+      "id": "MC6C-JQBv9knK3AHUzUT",
+      "group": "Live TV",
+      "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/MC6C-JQBv9knK3AHUzUT/posters/a8c32fd3-2ba7-437c-85ac-de2f1b2fa6ca.webp",
+      "stream_url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonybbc_earth_hd/playlist.m3u8",
+      "cookie": "Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t:Expires=1775900385:KeyName=prod_linear:Signature=TDmIME7I_12ur8cDlPCYyae1OZLQVODakruZBO65PZx4j1jVzGvjc_xCA_ECD788ay1tbUUSNzp2CwBhvXKXCQ"
+    }
+  ]
 }

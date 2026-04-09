@@ -1,1 +1,10 @@
 #EXTM3U
+#EXTINF:-1 group-title="Live TV" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/o3v235oBcqxnFHJBkAdC/posters/0984dd89-8479-43ca-9c3a-cfacbcbc6c1f.png" tvg-name="Ekhon TV", Ekhon TV
+#EXTVLCOPT:http-user-agent=Toffee (Linux;Android 14)
+#EXTHTTP:{"cookie":"Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t:Expires=1775900384:KeyName=prod_linear:Signature=Vu5-rNq1o95mJfGcqmqgG5BESq56gKNvB-EQFeDQcQQxUacu-NYRre1rFeJpxg2opPwEys1HI79uybdAc0a5CQ"}
+https://bldcmprod-cdn.toffeelive.com/cdn/live/ekhon_tv/playlist.m3u8
+
+#EXTINF:-1 group-title="Live TV" tvg-logo="https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/MC6C-JQBv9knK3AHUzUT/posters/a8c32fd3-2ba7-437c-85ac-de2f1b2fa6ca.webp" tvg-name="Sony BBC Earth HD", Sony BBC Earth HD
+#EXTVLCOPT:http-user-agent=Toffee (Linux;Android 14)
+#EXTHTTP:{"cookie":"Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t:Expires=1775900385:KeyName=prod_linear:Signature=TDmIME7I_12ur8cDlPCYyae1OZLQVODakruZBO65PZx4j1jVzGvjc_xCA_ECD788ay1tbUUSNzp2CwBhvXKXCQ"}
+https://bldcmprod-cdn.toffeelive.com/cdn/live/sonybbc_earth_hd/playlist.m3u8
