@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Toffee Live TV Playlist Generator
-ফেচ করে: চ্যানেল লিস্ট JSON → প্লেব্যাক API → m3u8 + cookie → ExtVlcOpt m3u
+পেজিনেশন + প্লেব্যাক API (POST) + cookie হ্যান্ডলিং
 """
 
 import json
@@ -13,15 +13,28 @@ from typing import Dict, List, Optional
 # ========== কনফিগারেশন ==========
 BASE_URL = "https://content-prod.services.toffeelive.com/toffee/BD/DK/android-mobile"
 PLAYBACK_URL = "https://entitlement-prod.services.toffeelive.com/toffee/BD/DK/android-mobile/playback"
-CHANNELS_ENDPOINT = f"{BASE_URL}/rail/generic/editorial-dynamic?filters=v_type:channels;subType:Live_TV"
 
-HEADERS = {
-    "User-Agent": "Toffee/8.8.0 (Linux;Android 14) ExoPlayerLib/2.18.6",
+# চ্যানেল লিস্টের এন্ডপয়েন্ট (পেজিনেশন সহ)
+# প্রথমে যে ইউআরএল থেকে page=1 পাওয়া যায় সেটি ব্যবহার করছি
+CHANNELS_ENDPOINT_TEMPLATE = "https://content-prod.services.toffeelive.com/toffee/BD/DK/android-mobile/rail/generic/editorial-dynamic/84a2451df95d2eb3d2b0d09c5fc34fb1?page={page}"
+
+# হেডার (প্লেব্যাক ও চ্যানেল লিস্টের জন্য আলাদা)
+COMMON_HEADERS = {
+    "User-Agent": "okhttp/5.1.0",
     "Accept-Encoding": "gzip",
     "Connection": "Keep-Alive"
 }
 
-# গ্রুপ ম্যাপিং (genres অনুযায়ী)
+# প্লেব্যাক API-র জন্য বিশেষ হেডার (আপনার দেওয়া রিকোয়েস্ট থেকে নেওয়া)
+PLAYBACK_HEADERS = {
+    "Host": "entitlement-prod.services.toffeelive.com",
+    "authorization": "Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL3RvZmZlZWxpdmUuY29tIiwiY291bnRyeSI6IklOIiwiZF9pZCI6ImM1M2EzYzRiLTg1MjktNDgzYi1hNWFkLTM2ZGI3MTdlOTFmNyIsImV4cCI6MTc3ODI3OTAyMywiaWF0IjoxNzc1NjQ5MjIzLCJpc3MiOiJ0b2ZmZWVsaXZlLmNvbSIsImp0aSI6IjE0Yjg2NGEyLWFjMmYtNDM1Yy04YTVmLTIzNDU3NGUyYjMyMl8xNzc1NjQ5MjIzIiwicHJvdmlkZXIiOiJ0b2ZmZWUiLCJyX2lkIjoiYzUzYTNjNGItODUyOS00ODNiLWE1YWQtMzZkYjcxN2U5MWY3Iiwic19pZCI6ImM1M2EzYzRiLTg1MjktNDgzYi1hNWFkLTM2ZGI3MTdlOTFmNyIsInRva2VuIjoiYWNjZXNzIiwidHlwZSI6ImRldmljZSJ9.kGXwQOYqAWYwRe2Oeh9okecKhoXarNlfJpDtqR48KXfhpO5WTEXR9xbMfWi5CN2OinsaOuixs6qmu-g4Ctly1A",
+    "content-type": "application/json; charset=utf-8",
+    "accept-encoding": "gzip",
+    "user-agent": "okhttp/5.1.0"
+}
+
+# গ্রুপ ম্যাপিং (genres বা অন্যান্য তথ্য থেকে গ্রুপ নির্ধারণ)
 GENRE_GROUP_MAP = {
     "Sports": "Sports Channels",
     "News": "News Channels",
@@ -33,19 +46,40 @@ GENRE_GROUP_MAP = {
 }
 DEFAULT_GROUP = "Live TV"
 
-# ========== হেলপার ফাংশন ==========
-def fetch_json(url: str) -> Optional[dict]:
-    """সাধারণ GET রিকোয়েস্ট, JSON রিটার্ন করে"""
+# ========== ফাংশন ==========
+def fetch_page(page: int) -> Optional[dict]:
+    """একটি নির্দিষ্ট পেজ থেকে চ্যানেল লিস্ট ফেচ করে"""
+    url = CHANNELS_ENDPOINT_TEMPLATE.format(page=page)
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=15)
+        resp = requests.get(url, headers=COMMON_HEADERS, timeout=15)
         if resp.status_code == 200:
             return resp.json()
         else:
-            print(f"❌ {url} → status {resp.status_code}")
+            print(f"⚠️ Page {page} returned {resp.status_code}")
             return None
     except Exception as e:
-        print(f"❌ Request failed: {e}")
+        print(f"❌ Page {page} error: {e}")
         return None
+
+def get_all_channels() -> List[dict]:
+    """সব পেজ লুপ করে সব চ্যানেল সংগ্রহ করে"""
+    all_channels = []
+    page = 1
+    while True:
+        print(f"📄 Fetching page {page}...")
+        data = fetch_page(page)
+        if not data or "list" not in data:
+            break
+        items = data["list"]
+        if not items:
+            break
+        all_channels.extend(items)
+        print(f"   Got {len(items)} channels (total so far: {len(all_channels)})")
+        page += 1
+        # নিরাপত্তার জন্য ২০ পেজের বেশি না
+        if page > 20:
+            break
+    return all_channels
 
 def get_group_from_genres(genres: List[str]) -> str:
     """জেনার থেকে গ্রুপ টাইটেল বের করে"""
@@ -56,10 +90,11 @@ def get_group_from_genres(genres: List[str]) -> str:
     return DEFAULT_GROUP
 
 def get_playback_data(channel_id: str) -> Optional[Dict]:
-    """প্লেব্যাক API কল করে m3u8 url এবং cookie বের করে"""
+    """প্লেব্যাক API কল করে m3u8 url এবং cookie বের করে (POST মেথড)"""
     url = f"{PLAYBACK_URL}/{channel_id}"
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=15)
+        # প্লেব্যাক রিকোয়েস্টে খালি JSON বডি
+        resp = requests.post(url, headers=PLAYBACK_HEADERS, json={}, timeout=15)
         if resp.status_code != 200:
             print(f"❌ Playback failed for {channel_id}: {resp.status_code}")
             return None
@@ -76,9 +111,7 @@ def get_playback_data(channel_id: str) -> Optional[Dict]:
         # cookie বের করো (set-cookie হেডার থেকে)
         cookie = None
         if "set-cookie" in resp.headers:
-            # Edge-Cache-Cookie=...; Domain=...; Path=...
             set_cookie = resp.headers["set-cookie"]
-            # শুধু "Edge-Cache-Cookie=..." অংশ নাও
             match = re.search(r'(Edge-Cache-Cookie=[^;]+)', set_cookie)
             if match:
                 cookie = match.group(1)
@@ -102,30 +135,36 @@ def escape_m3u_field(text: str) -> str:
 
 # ========== মেইন ==========
 def main():
-    print("🔄 Fetching live TV channel list...")
-    channels_data = fetch_json(CHANNELS_ENDPOINT)
-    if not channels_data or "list" not in channels_data:
-        print("❌ No channel list found")
-        return
+    print("🔄 Fetching all live TV channels (paginated)...")
+    channels = get_all_channels()
+    print(f"✅ Total channels found: {len(channels)}")
     
-    channels = channels_data["list"]
-    print(f"✅ Found {len(channels)} live TV channels")
+    if not channels:
+        print("❌ No channels found. Exiting.")
+        return
     
     m3u_lines = []
     json_output = {"generated": datetime.utcnow().isoformat(), "channels": []}
     
-    for idx, ch in enumerate(channels, 1):
+    # শুধুমাত্র subType Live_TV ফিল্টার (যদি থাকে)
+    live_tv_channels = [ch for ch in channels if ch.get("subType") == "Live_TV"]
+    if not live_tv_channels:
+        print("⚠️ No Live_TV channels found in the list. Using all channels.")
+        live_tv_channels = channels
+    
+    print(f"📺 Processing {len(live_tv_channels)} live TV channels...")
+    
+    for idx, ch in enumerate(live_tv_channels, 1):
         title = ch.get("title", "Unknown")
         channel_id = ch.get("id")
         if not channel_id:
             print(f"⚠️ Skipping {title}: no id")
             continue
         
-        # লোগো URL বের করো (সর্বোচ্চ রেজোলিউশন পছন্দ করে)
+        # লোগো URL বের করো
         logo_url = ""
         images = ch.get("images", [])
         if images:
-            # বড় image পছন্দ (width বেশি)
             best = max(images, key=lambda x: x.get("width", 0))
             logo_path = best.get("path", "")
             if logo_path:
@@ -134,7 +173,7 @@ def main():
                 else:
                     logo_url = f"https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/{logo_path}"
         
-        # গ্রুপ টাইটেল
+        # গ্রুপ টাইটেল (genres ব্যবহার করে)
         genres = ch.get("genres", [])
         group = get_group_from_genres(genres)
         
@@ -165,7 +204,7 @@ def main():
             "cookie": cookie
         })
         
-        print(f"✅ [{idx}/{len(channels)}] {title} → {group}")
+        print(f"✅ [{idx}/{len(live_tv_channels)}] {title} → {group}")
     
     # ফাইল লেখা
     with open("toffee.m3u", "w", encoding="utf-8") as f:
