@@ -1,31 +1,25 @@
 #!/usr/bin/env python3
 """
-Toffee Live TV + Radio Playlist Generator
-- লাইভ টিভি: m3u8 + cookie
-- রেডিও: সরাসরি stream URL
+Toffee Live TV + Radio Playlist Generator (Fixed Device ID)
 """
 
 import json
 import re
-import uuid
 import requests
 from datetime import datetime
 from typing import Dict, List, Optional
 
 # ========== কনফিগারেশন ==========
-# ⚠️ Reqable থেকে প্রাপ্ত nonce/hash (এক্সপায়ার হলে আপডেট করুন)
+# Reqable থেকে প্রাপ্ত nonce/hash ও device_id
 HARDCODED_NONCE = "i35ZfFGloymxWjEg19Tc_wyR66sQ0afB3WmpTt4IZFo%3D%0A"
 HARDCODED_HASH = "eba79df7056e4bf369a981a78534ca26b1177994f71e71fcb292aea55789fef6ef4a86310aaa136642a49418afd5cad951a300a8d395fe3bed9f71c46c4aaf5843fc7e527567e264f199ca9f928b636e5776478d98a209479ad3be7fe5de2103c517bffd1680c137187827dcce756e8ef1e28aca05e86694092e8e793a45a32f55d11415fc62d556ac99344797b00a2e"
+DEVICE_ID = "3394e1c359ad2393"   # ফিক্সড
 
 BASE_CONTENT = "https://content-prod.services.toffeelive.com/toffee/BD/DK/android-mobile"
 DEVICE_REGISTER_URL = "https://prod-services.toffeelive.com/sms/v1/device/register"
 PLAYBACK_BASE = "https://entitlement-prod.services.toffeelive.com/toffee/BD/DK/android-mobile/playback"
 HOME_VIEW_URL = f"{BASE_CONTENT}/view/home"
-
-# ডিফল্ট লাইভ টিভি রেল হ্যাশ (হোমপেজ থেকে না পেলে ব্যবহার হবে)
 LIVE_TV_RAIL_HASH = "032cc9194378b850b2fec39c6386fd1f"
-
-# রেডিও এন্ডপয়েন্ট
 RADIO_ENDPOINT = f"{BASE_CONTENT}/rail/generic/editorial-dynamic?filters=v_type:channels;subType:radio"
 
 COMMON_HEADERS = {
@@ -45,14 +39,11 @@ GENRE_GROUP_MAP = {
 }
 DEFAULT_GROUP = "Live TV"
 
-# ========== হেলপার ফাংশন ==========
-def generate_device_id() -> str:
-    return uuid.uuid4().hex[:16]
-
-def register_device(device_id: str) -> Optional[str]:
+# ========== ফাংশন ==========
+def register_device() -> Optional[str]:
     url = f"{DEVICE_REGISTER_URL}?nonce={HARDCODED_NONCE}&hash={HARDCODED_HASH}"
     payload = {
-        "device_id": device_id,
+        "device_id": DEVICE_ID,
         "type": "mobile",
         "provider": "toffee",
         "os": "android",
@@ -69,7 +60,7 @@ def register_device(device_id: str) -> Optional[str]:
     try:
         resp = requests.post(url, headers=headers, json=payload, timeout=15)
         if resp.status_code != 200:
-            print(f"❌ Device registration failed: {resp.status_code}")
+            print(f"❌ Device registration failed: {resp.status_code} - {resp.text}")
             return None
         data = resp.json()
         if data.get("success") and "data" in data:
@@ -134,8 +125,7 @@ def get_radio_channels(access_token: str) -> List[Dict]:
     try:
         resp = requests.get(RADIO_ENDPOINT, headers=headers, timeout=15)
         if resp.status_code == 200:
-            data = resp.json()
-            return data.get("list", [])
+            return resp.json().get("list", [])
         else:
             print(f"⚠️ Radio endpoint returned {resp.status_code}")
     except Exception as e:
@@ -143,19 +133,12 @@ def get_radio_channels(access_token: str) -> List[Dict]:
     return []
 
 def get_radio_stream_url(radio_ch: Dict) -> Optional[str]:
-    """
-    রেডিও চ্যানেল থেকে stream URL বের করে।
-    JSON-এ 'stream_url' অথবা 'media[0].url' অথবা 'media[0].mediaId' থাকতে পারে।
-    এখানে আমরা সরাসরি stream_url অথবা media url খুঁজব।
-    """
     if "stream_url" in radio_ch:
         return radio_ch["stream_url"]
     media_list = radio_ch.get("media", [])
     for media in media_list:
         if "url" in media:
             return media["url"]
-        # যদি শুধু mediaId থাকে, তাহলে সেটা দিয়ে ভিন্ন API কল লাগতে পারে।
-        # আপাতত None রিটার্ন করব, কারণ আমরা জানি না কোন API।
     return None
 
 def get_playback_data(channel_id: str, access_token: str) -> Optional[Dict]:
@@ -193,16 +176,14 @@ def escape_m3u_field(text: str) -> str:
 
 def main():
     print("🔄 Toffee Playlist Generator (Live TV + Radio)")
+    print(f"📱 Using fixed Device ID: {DEVICE_ID}")
 
-    # 1. ডিভাইস রেজিস্ট্রেশন
-    device_id = generate_device_id()
-    print(f"📱 Device ID: {device_id}")
-    token = register_device(device_id)
+    token = register_device()
     if not token:
         print("❌ No token, abort.")
         return
 
-    # 2. লাইভ টিভি রেল চিহ্নিতকরণ
+    # লাইভ টিভি রেল
     home = get_home_json(token)
     if home:
         rail_hash = get_live_tv_rail_hash(home)
@@ -210,28 +191,23 @@ def main():
         rail_hash = LIVE_TV_RAIL_HASH
     print(f"🎯 Live TV rail hash: {rail_hash}")
 
-    # 3. লাইভ টিভি চ্যানেল সংগ্রহ
     print("\n📺 Fetching Live TV channels...")
     live_channels = get_all_live_tv_channels(rail_hash, token)
     print(f"✅ Found {len(live_channels)} live TV channels")
 
-    # 4. রেডিও চ্যানেল সংগ্রহ
     print("\n📻 Fetching Radio channels...")
     radio_channels = get_radio_channels(token)
     print(f"✅ Found {len(radio_channels)} radio channels")
 
-    # 5. m3u লাইন তৈরি
     m3u_lines = ["#EXTM3U"]
     json_output = {"generated": datetime.utcnow().isoformat(), "channels": []}
 
-    # ----- লাইভ টিভি প্রসেসিং -----
+    # লাইভ টিভি
     for idx, ch in enumerate(live_channels, 1):
         title = ch.get("title", "Unknown")
         ch_id = ch.get("id")
         if not ch_id:
             continue
-
-        # লোগো URL
         logo = ""
         images = ch.get("images", [])
         if images:
@@ -242,8 +218,6 @@ def main():
                     logo = path
                 else:
                     logo = f"https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/{path}"
-
-        # গ্রুপ টাইটেল
         genres = ch.get("genres", [])
         group = DEFAULT_GROUP
         for g in genres:
@@ -251,19 +225,16 @@ def main():
                 if key.lower() in g.lower():
                     group = grp
                     break
-
         playback = get_playback_data(ch_id, token)
         if not playback or not playback["stream_url"]:
             print(f"⚠️ No stream for {title}")
             continue
-
         m3u_lines.append(f'#EXTINF:-1 group-title="{group}" tvg-logo="{logo}" tvg-name="{escape_m3u_field(title)}", {title}')
         m3u_lines.append('#EXTVLCOPT:http-user-agent=Toffee (Linux;Android 14)')
         if playback.get("cookie"):
             m3u_lines.append(f'#EXTHTTP:{{"cookie":"{playback["cookie"]}"}}')
         m3u_lines.append(playback["stream_url"])
         m3u_lines.append("")
-
         json_output["channels"].append({
             "type": "live_tv",
             "title": title,
@@ -275,14 +246,13 @@ def main():
         })
         print(f"✅ [{idx}/{len(live_channels)}] Live TV: {title}")
 
-    # ----- রেডিও প্রসেসিং -----
+    # রেডিও
     for idx, ch in enumerate(radio_channels, 1):
         title = ch.get("title", "Unknown")
         stream_url = get_radio_stream_url(ch)
         if not stream_url:
             print(f"⚠️ No stream URL for radio {title}")
             continue
-
         logo = ""
         images = ch.get("images", [])
         if images:
@@ -293,13 +263,11 @@ def main():
                     logo = path
                 else:
                     logo = f"https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/{path}"
-
         group = "Radios"
         m3u_lines.append(f'#EXTINF:-1 group-title="{group}" tvg-logo="{logo}" tvg-name="{escape_m3u_field(title)}", {title}')
         m3u_lines.append('#EXTVLCOPT:http-user-agent=Toffee (Linux;Android 14)')
         m3u_lines.append(stream_url)
         m3u_lines.append("")
-
         json_output["channels"].append({
             "type": "radio",
             "title": title,
@@ -309,7 +277,6 @@ def main():
         })
         print(f"✅ [{idx}/{len(radio_channels)}] Radio: {title}")
 
-    # ফাইল লেখা
     with open("toffee.m3u", "w", encoding="utf-8") as f:
         f.write("\n".join(m3u_lines))
     with open("toffee.json", "w", encoding="utf-8") as f:
