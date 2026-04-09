@@ -1,31 +1,35 @@
 #!/usr/bin/env python3
 """
 Toffee Live TV + Radio Playlist Generator
-- সব রেল থেকে লাইভ চ্যানেল সংগ্রহ
-- রেডিও আলাদা এন্ডপয়েন্ট
-- অটো টোকেন রিফ্রেশ
+- প্রথম রান: হার্ডকোডেড nonce/hash দিয়ে ডিভাইস রেজিস্ট্রেশন
+- পরবর্তী রান: রিফ্রেশ টোকেন দিয়ে access_token রিফ্রেশ
+- ব্যর্থ হলে আবার রেজিস্ট্রেশন চেষ্টা (সেক্ষেত্রে নতুন nonce/hash লাগবে)
 """
 
 import json
 import os
 import re
+import time
 import requests
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional
 
-# ========== কনফিগারেশন (হার্ডকোডেড nonce/hash) ==========
+# ========== কনফিগারেশন ==========
+# হার্ডকোডেড nonce/hash (Reqable থেকে ক্যাপচারকৃত, বৈধ থাকা পর্যন্ত)
 HARDCODED_NONCE = "GAMRZISrXAXcZAYeTdtTTAOhoHB8-6g2OSZjYbChvCM%3D%0A"
 HARDCODED_HASH = "638a979f244384bd334d9462e0fa4fd4c2a69f8a0ec4aa6c4694b3faa0271b31ef4a86310aaa136642a49418afd5cad951a300a8d395fe3bed9f71c46c4aaf5843fc7e527567e264f199ca9f928b636e5776478d98a209479ad3be7fe5de2103c517bffd1680c137187827dcce756e8ef1e28aca05e86694092e8e793a45a32f55d11415fc62d556ac99344797b00a2e"
-HARDCODED_DEVICE_ID = "58c6e0cde782de43"
+HARDCODED_DEVICE_ID = "58c6e0cde782de43"   # এই ডিভাইস আইডি nonce/hash এর সাথে সম্পর্কিত
 
+# এন্ডপয়েন্ট
 DEVICE_REGISTER_URL = "https://prod-services.toffeelive.com/sms/v1/device/register"
-TOKEN_REFRESH_URL = "https://prod-services.toffeelive.com/v1/token/refresh"
+TOKEN_REFRESH_URL = "https://prod-services.toffeelive.com/v1/token/refresh"  # ডিকম্পাইল থেকে পাওয়া
 CONTENT_BASE = "https://content-prod.services.toffeelive.com/toffee/BD/DK/android-mobile"
 PLAYBACK_BASE = "https://entitlement-prod.services.toffeelive.com/toffee/BD/DK/android-mobile/playback"
 HOME_VIEW_URL = f"{CONTENT_BASE}/view/home"
 RADIO_ENDPOINT = f"{CONTENT_BASE}/rail/generic/editorial-dynamic?filters=v_type:channels;subType:radio"
+LIVE_TV_RAIL_HASH = "032cc9194378b850b2fec39c6386fd1f"
 
-TOKEN_FILE = "toffee_token.json"
+TOKEN_FILE = "toffee_token.json"   # টোকেন সংরক্ষণের ফাইল
 
 COMMON_HEADERS = {
     "User-Agent": "okhttp/5.1.0",
@@ -33,7 +37,6 @@ COMMON_HEADERS = {
     "Connection": "Keep-Alive"
 }
 
-# গ্রুপ ম্যাপিং (জেনার বা রেলের টাইটেল অনুযায়ী)
 GENRE_GROUP_MAP = {
     "Sports": "Sports Channels",
     "News": "News Channels",
@@ -45,8 +48,9 @@ GENRE_GROUP_MAP = {
 }
 DEFAULT_GROUP = "Live TV"
 
-# ========== টোকেন ব্যবস্থাপনা (পূর্বের মতো) ==========
+# ========== টোকেন ব্যবস্থাপনা ==========
 def register_device() -> Optional[Dict]:
+    """হার্ডকোডেড nonce/hash দিয়ে ডিভাইস রেজিস্ট্রেশন করে টোকেন ফেরত দেয়"""
     url = f"{DEVICE_REGISTER_URL}?nonce={HARDCODED_NONCE}&hash={HARDCODED_HASH}"
     payload = {
         "device_id": HARDCODED_DEVICE_ID,
@@ -77,35 +81,63 @@ def register_device() -> Optional[Dict]:
                 "refresh_expiry": data["data"]["refresh_expiry"],
                 "device_id": HARDCODED_DEVICE_ID
             }
+        else:
+            print(f"❌ Unexpected response: {data}")
+            return None
     except Exception as e:
         print(f"❌ Registration error: {e}")
-    return None
+        return None
 
 def refresh_access_token(refresh_token: str) -> Optional[str]:
-    headers = {"Authorization": f"Bearer {refresh_token}", "User-Agent": "okhttp/5.1.0"}
+    """রিফ্রেশ টোকেন ব্যবহার করে নতুন access_token পাওয়া"""
+    headers = {
+        "Authorization": f"Bearer {refresh_token}",
+        "Content-Type": "application/json",
+        "User-Agent": "okhttp/5.1.0"
+    }
     try:
+        # কিছু API খালি বডি চায়, কিছুতে {'refresh_token': refresh_token} দরকার
+        # আমরা প্রথমে খালি বডি চেষ্টা করব, না হলে অন্য ফরম্যাট
         resp = requests.post(TOKEN_REFRESH_URL, headers=headers, json={}, timeout=15)
         if resp.status_code == 200:
             data = resp.json()
+            # রেসপন্স স্ট্রাকচার ভিন্ন হতে পারে, কমন প্যাটার্ন চেক
             if "access_token" in data:
                 return data["access_token"]
             elif "data" in data and "access" in data["data"]:
                 return data["data"]["access"]
-    except:
-        pass
+            elif "access" in data:
+                return data["access"]
+        else:
+            # দ্বিতীয় চেষ্টা: বডিতে refresh_token দেওয়া
+            resp2 = requests.post(TOKEN_REFRESH_URL, headers=headers, json={"refresh_token": refresh_token}, timeout=15)
+            if resp2.status_code == 200:
+                data2 = resp2.json()
+                if "access_token" in data2:
+                    return data2["access_token"]
+                elif "data" in data2 and "access" in data2["data"]:
+                    return data2["data"]["access"]
+    except Exception as e:
+        print(f"⚠️ Token refresh error: {e}")
     return None
 
 def load_token() -> Optional[Dict]:
+    """সংরক্ষিত টোকেন ফাইল থেকে পড়ে"""
     if os.path.exists(TOKEN_FILE):
-        with open(TOKEN_FILE, "r") as f:
-            return json.load(f)
+        try:
+            with open(TOKEN_FILE, "r") as f:
+                return json.load(f)
+        except:
+            pass
     return None
 
 def save_token(token_data: Dict):
+    """টোকেন ফাইলে সেভ করে"""
     with open(TOKEN_FILE, "w") as f:
         json.dump(token_data, f, indent=2)
 
 def get_valid_access_token() -> Optional[str]:
+    """বর্তমান বৈধ access_token ফেরত দেয় (প্রয়োজনে রিফ্রেশ করে)"""
     token_data = load_token()
     if not token_data:
         print("🔄 No saved token, registering device...")
@@ -113,24 +145,34 @@ def get_valid_access_token() -> Optional[str]:
         if token_data:
             save_token(token_data)
             return token_data["access_token"]
-        return None
-    access_expiry = token_data.get("access_expiry")
-    if access_expiry and datetime.fromtimestamp(access_expiry) - datetime.now() < timedelta(days=1):
-        print("🔄 Refreshing access token...")
-        new_access = refresh_access_token(token_data["refresh_token"])
-        if new_access:
-            token_data["access_token"] = new_access
-            save_token(token_data)
-            return new_access
         else:
-            print("⚠️ Refresh failed, re-registering...")
-            token_data = register_device()
-            if token_data:
+            return None
+    
+    # চেক করা access_token এর মেয়াদ শেষ কিনা (এক্সপায়ারির ১ দিন আগে রিফ্রেশ)
+    access_expiry = token_data.get("access_expiry")
+    if access_expiry:
+        expiry_time = datetime.fromtimestamp(access_expiry)
+        if expiry_time - datetime.now() < timedelta(days=1):
+            print("🔄 Access token expiring soon, refreshing...")
+            new_access = refresh_access_token(token_data["refresh_token"])
+            if new_access:
+                token_data["access_token"] = new_access
+                # নতুন access_expiry আপডেট করতে পারি না (রিফ্রেশ রেসপন্সে থাকলে)
+                # যদি না থাকে, পুরনো expiry রাখা যায়, কিন্তু সেটা ভুল হতে পারে।
+                # নিরাপদে আমরা পুরো টোকেন আবার রেজিস্ট্রেশন করতে পারি, তবে রিফ্রেশটাই ভালো।
                 save_token(token_data)
-                return token_data["access_token"]
+                return new_access
+            else:
+                print("⚠️ Refresh failed, re-registering device...")
+                token_data = register_device()
+                if token_data:
+                    save_token(token_data)
+                    return token_data["access_token"]
+                else:
+                    return None
     return token_data["access_token"]
 
-# ========== চ্যানেল সংগ্রহের ফাংশন ==========
+# ========== বাকি ফাংশন (পূর্বের মতো) ==========
 def get_home_json(access_token: str) -> Optional[Dict]:
     headers = {"Authorization": f"Bearer {access_token}", **COMMON_HEADERS}
     try:
@@ -140,6 +182,18 @@ def get_home_json(access_token: str) -> Optional[Dict]:
     except Exception as e:
         print(f"❌ Home view error: {e}")
     return None
+
+def get_live_tv_rail_hash(home_json: Dict) -> str:
+    try:
+        for rail in home_json.get("rails", {}).get("list", []):
+            if rail.get("title") == "Live TV" and rail.get("layout") == "circularLayout":
+                api_path = rail.get("apiPath", "")
+                parts = api_path.split("/")
+                if len(parts) >= 4:
+                    return parts[3]
+    except:
+        pass
+    return LIVE_TV_RAIL_HASH
 
 def fetch_rail_page(rail_hash: str, page: int, access_token: str) -> Optional[List[Dict]]:
     url = f"{CONTENT_BASE}/rail/generic/editorial-dynamic/{rail_hash}?page={page}"
@@ -152,30 +206,19 @@ def fetch_rail_page(rail_hash: str, page: int, access_token: str) -> Optional[Li
         pass
     return None
 
-def get_all_live_channels_from_home(access_token: str) -> List[Dict]:
-    """সব রেল থেকে subType Live_TV বা Live_Event সংগ্রহ করে"""
-    home = get_home_json(access_token)
-    if not home:
-        return []
+def get_all_live_tv_channels(rail_hash: str, access_token: str) -> List[Dict]:
     all_channels = []
-    rails = home.get("rails", {}).get("list", [])
-    for rail in rails:
-        api_path = rail.get("apiPath")
-        if not api_path or not api_path.startswith("rail/generic/editorial-dynamic/"):
-            continue
-        rail_hash = api_path.split("/")[3]
-        page = 1
-        while True:
-            items = fetch_rail_page(rail_hash, page, access_token)
-            if not items:
-                break
-            # ফিল্টার: শুধু লাইভ টিভি বা লাইভ ইভেন্ট
-            live_items = [ch for ch in items if ch.get("subType") in ("Live_TV", "Live_Event")]
-            all_channels.extend(live_items)
-            print(f"   Rail {rail_hash[:8]}... page {page}: {len(live_items)} live (total {len(all_channels)})")
-            page += 1
-            if page > 20:
-                break
+    page = 1
+    while True:
+        items = fetch_rail_page(rail_hash, page, access_token)
+        if not items:
+            break
+        live_items = [ch for ch in items if ch.get("subType") == "Live_TV"]
+        all_channels.extend(live_items)
+        print(f"   Page {page}: {len(live_items)} live TV (total {len(all_channels)})")
+        page += 1
+        if page > 20:
+            break
     return all_channels
 
 def get_radio_channels(access_token: str) -> List[Dict]:
@@ -184,6 +227,8 @@ def get_radio_channels(access_token: str) -> List[Dict]:
         resp = requests.get(RADIO_ENDPOINT, headers=headers, timeout=15)
         if resp.status_code == 200:
             return resp.json().get("list", [])
+        else:
+            print(f"⚠️ Radio endpoint returned {resp.status_code}")
     except Exception as e:
         print(f"❌ Radio fetch error: {e}")
     return []
@@ -258,29 +303,35 @@ def escape_m3u_field(text: str) -> str:
     return f'"{text}"' if ',' in text else text
 
 def main():
-    print("🔄 Toffee Playlist Generator (All Rails + Radio)")
+    print("🔄 Toffee Playlist Generator (Auto token refresh)")
 
+    # টোকেন প্রাপ্তি (রিফ্রেশ সহ)
     access_token = get_valid_access_token()
     if not access_token:
-        print("❌ No access token. Exiting.")
+        print("❌ Failed to obtain access token. Exiting.")
         return
     print("✅ Access token ready")
 
-    # সব লাইভ চ্যানেল সংগ্রহ (সব রেল থেকে)
-    print("\n📺 Fetching live channels from all rails...")
-    live_channels = get_all_live_channels_from_home(access_token)
-    print(f"✅ Total live channels found: {len(live_channels)}")
+    # হোমপেজ থেকে লাইভ টিভি রেল হ্যাশ
+    home = get_home_json(access_token)
+    rail_hash = get_live_tv_rail_hash(home) if home else LIVE_TV_RAIL_HASH
+    print(f"🎯 Live TV rail hash: {rail_hash}")
 
-    # রেডিও চ্যানেল
-    print("\n📻 Fetching radio channels...")
+    # লাইভ টিভি চ্যানেল সংগ্রহ
+    print("\n📺 Fetching Live TV channels...")
+    live_channels = get_all_live_tv_channels(rail_hash, access_token)
+    print(f"✅ Found {len(live_channels)} live TV channels")
+
+    # রেডিও চ্যানেল সংগ্রহ
+    print("\n📻 Fetching Radio channels...")
     radio_channels = get_radio_channels(access_token)
-    print(f"✅ Radio channels found: {len(radio_channels)}")
+    print(f"✅ Found {len(radio_channels)} radio channels")
 
     # m3u লাইন তৈরি
     m3u_lines = ["#EXTM3U"]
     json_output = {"generated": datetime.utcnow().isoformat(), "channels": []}
 
-    # প্রক্রিয়াকরণ লাইভ চ্যানেল
+    # লাইভ টিভি
     for idx, ch in enumerate(live_channels, 1):
         title = ch.get("title", "Unknown")
         ch_id = ch.get("id")
@@ -308,7 +359,7 @@ def main():
             "stream_url": playback["stream_url"],
             "cookie": playback.get("cookie")
         })
-        print(f"✅ [{idx}/{len(live_channels)}] {title} → {group}")
+        print(f"✅ [{idx}/{len(live_channels)}] Live TV: {title}")
 
     # রেডিও
     for idx, ch in enumerate(radio_channels, 1):
@@ -337,7 +388,7 @@ def main():
     with open("toffee.json", "w", encoding="utf-8") as f:
         json.dump(json_output, f, indent=2, ensure_ascii=False)
 
-    print(f"\n🎉 Success! {len(json_output['channels'])} channels written.")
+    print(f"\n🎉 Success! {len(live_channels)} live TV + {len(radio_channels)} radio channels written.")
 
 if __name__ == "__main__":
     main()
