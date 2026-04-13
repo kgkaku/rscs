@@ -1,367 +1,441 @@
 #EXTM3U
 # by @kgkaku
-# time: 2026-04-13 21:51:30
-# total Channels: 181
+# time: 2026-04-13 22:44:10
+# total Channels: 218
 
 #EXTINF:-1 tvg-id="415" tvg-name="Horizon Sports" tvg-logo="https://a.jsrdn.com/hls/22705/horizon-sports/logo_20231219_213910_70.png" group-title="IAB17",Horizon Sports
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/horizon-sports/0e6b00da-9c69-4174-b029-2fad7ff7d4ca/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/horizon-sports/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/horizon-sports/8d85d73b-5b18-407e-96d5-76a8436ec5c1/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/horizon-sports/master.m3u8
 #EXTINF:-1 tvg-id="416" tvg-name="The Boat Show" tvg-logo="https://a.jsrdn.com/hls/22706/the-boat-show/logo_20231219_223008_70.png" group-title="IAB20",The Boat Show
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/the-boat-show/db3426d7-bdaa-46ab-b7ba-09ea98e91741/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/the-boat-show/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/the-boat-show/f70a72da-bc59-4f59-95a6-6e10316d011f/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/the-boat-show/master.m3u8
 #EXTINF:-1 tvg-id="543" tvg-name="Outside" tvg-logo="https://a.jsrdn.com/hls/22765/outside-tv/logo_20231219_220634_59.png" group-title="IAB17",Outside
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/outsidetv/5cf52610-3744-47a0-92f6-aaabdaf43d86/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/outsidetv/playlist.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/outsidetv/0b17b0fb-f915-49a5-a32a-b24feffb2b80/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/outsidetv/playlist.m3u8
+#EXTINF:-1 tvg-id="616" tvg-name="Dove" tvg-logo="https://a.jsrdn.com/hls/22787/dove/logo_20250204_185615_68.png" group-title="IAB1",Dove
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/dove/6eb749b4-843d-454c-ad94-f6354aba83cd/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/dove/playlist.m3u8
+#EXTINF:-1 tvg-id="650" tvg-name="The First" tvg-logo="https://a.jsrdn.com/hls/22803/the-first/logo_20231219_223053_36.png" group-title="IAB12",The First
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/the-first/8c099be7-9caa-45b1-9866-b028d722c53d/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/the-first/playlist.m3u8
+#EXTINF:-1 tvg-id="1031" tvg-name="Newsmax TV" tvg-logo="https://a.jsrdn.com/hls/22819/newsmax-tv/logo_20231219_220350_38.png" group-title="IAB12",Newsmax TV
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/newsmax-tv/6903963f-e98a-4611-a23a-b6e9aff49d93/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/newsmax-tv/index.m3u8
 #EXTINF:-1 tvg-id="1059" tvg-name="Hard Knocks" tvg-logo="https://a.jsrdn.com/hls/22817/hard-knocks-fighting/logo_20231219_202542_70.png" group-title="IAB17",Hard Knocks
-https://d3uyzhwvmemdyf.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/Hard-Knocks-DistroTV/82855c49-dc8c-4c80-ad83-b36412ede28b/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/Hard-Knocks-DistroTV/109.m3u8
+https://d3uyzhwvmemdyf.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/Hard-Knocks-DistroTV/620d694a-391c-4180-b60d-5e6eb8068e19/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/Hard-Knocks-DistroTV/109.m3u8
 #EXTINF:-1 tvg-id="1093" tvg-name="Kaloopy" tvg-logo="https://a.jsrdn.com/hls/22868/kaloopy/logo_20231219_214555_68.png" group-title="IAB1",Kaloopy
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/kaloopy/5c7381b7-5916-435a-bc07-5f50dc76f890/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/kaloopy/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/kaloopy/abe24c09-ff04-43d7-a866-95fd59ca2982/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/kaloopy/master.m3u8
 #EXTINF:-1 tvg-id="1094" tvg-name="Right Now Tv" tvg-logo="https://a.jsrdn.com/hls/22863/right-now-tv/logo_20231219_221555_29.png" group-title="IAB1",Right Now Tv
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/right-now-tv/3c942e2c-d34d-40c8-8cee-bd5214891d3b/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/right-now-tv/playlist.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/right-now-tv/a0cf048b-9bbf-4e2b-ab10-255b670afd4e/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/right-now-tv/playlist.m3u8
 #EXTINF:-1 tvg-id="1095" tvg-name="OAN Plus" tvg-logo="https://a.jsrdn.com/hls/22866/oan-encore/logo_20231219_220536_57.png" group-title="IAB12",OAN Plus
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/oan-encore/d58880e0-dd21-4f8e-99c1-0a1b5912e751/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/oan-encore/playlist.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/oan-encore/d3eaefab-ef91-43d1-bbce-c69b04718a5d/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/oan-encore/playlist.m3u8
 #EXTINF:-1 tvg-id="1096" tvg-name="AWE Plus" tvg-logo="https://a.jsrdn.com/hls/22866/awe-encore/logo_20231219_184403_70.png" group-title="IAB12",AWE Plus
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/awe-encore/7f23a5be-f93d-494b-be99-60498c232049/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/awe-encore/playlist.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/awe-encore/72f1cadc-ebbc-456c-b10c-3b4edff2bb99/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/awe-encore/playlist.m3u8
+#EXTINF:-1 tvg-id="1101" tvg-name="Qello Concerts" tvg-logo="https://a.jsrdn.com/hls/22865/stingray-qello/logo_20231219_221133_51.png" group-title="IAB1",Qello Concerts
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray/qello-qello001-montreal/distrotv/2482f82e-f583-4621-a2a8-a704c107ceb0/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/stingray/qello-qello001-montreal/distrotv/master.m3u8
+#EXTINF:-1 tvg-id="1102" tvg-name="Stingray Karaoke" tvg-logo="https://a.jsrdn.com/hls/22865/stingray-karaoke/logo_20231219_222517_68.png" group-title="IAB1",Stingray Karaoke
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray/karaoke-kar000-montreal/distrotv/9c544d89-f360-4101-98fb-a3a5f510c6fb/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/stingray/karaoke-kar000-montreal/distrotv/master.m3u8
+#EXTINF:-1 tvg-id="1103" tvg-name="Stingray Naturescape" tvg-logo="https://a.jsrdn.com/hls/22865/stingray-naturescape/logo_20231219_222535_48.png" group-title="IAB1",Stingray Naturescape
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray/naturescape-a003-montreal/distrotv/d2dca04e-290f-4415-b2e4-0cf6962181cd/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/stingray/naturescape-a003-montreal/distrotv/master.m3u8
+#EXTINF:-1 tvg-id="1104" tvg-name="Stingray Classica" tvg-logo="https://a.jsrdn.com/hls/22865/stingray-classica/logo_20231219_222229_59.png" group-title="IAB1",Stingray Classica
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray/classica-cla008-montreal/distrotv/cfc21a19-74e4-4c68-a83d-aa7937470d15/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/stingray/classica-cla008-montreal/distrotv/master.m3u8
+#EXTINF:-1 tvg-id="1105" tvg-name="Stingray DJAZZ" tvg-logo="https://a.jsrdn.com/hls/22865/stingray-djazz/logo_20231219_222248_70.png" group-title="IAB1",Stingray DJAZZ
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray/djazz-djaads-montreal/distrotv/6e9d91f7-22ec-4253-9fb4-3e5e63624ba1/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/stingray/djazz-djaads-montreal/distrotv/master.m3u8
+#EXTINF:-1 tvg-id="1106" tvg-name="Stingray Hit List" tvg-logo="https://a.jsrdn.com/hls/22865/stingray-hit-list/logo_20231219_222438_68.png" group-title="IAB1",Stingray Hit List
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-hit-list/d9ab1ef4-6f8f-4930-b493-cbe21851e292/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-hit-list/master.m3u8
+#EXTINF:-1 tvg-id="1107" tvg-name="Stingray Hot Country" tvg-logo="https://a.jsrdn.com/hls/22865/stingray-hot-country/logo_20231219_222458_68.png" group-title="IAB1",Stingray Hot Country
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-hot-country/ddca9cef-2448-46e7-aa54-82f4176de6df/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-hot-country/master.m3u8
+#EXTINF:-1 tvg-id="1108" tvg-name="Stingray Rock Alternative" tvg-logo="https://a.jsrdn.com/hls/22865/stingray-rock-alternative/logo_20231219_222631_68.png" group-title="IAB1",Stingray Rock Alternative
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-rock-alternative/b14de915-88a8-40a7-a75c-9d09068b549f/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-rock-alternative/master.m3u8
+#EXTINF:-1 tvg-id="1109" tvg-name="Stingray Pop Adult" tvg-logo="https://a.jsrdn.com/hls/22865/stingray-pop-adult/logo_20231219_222554_68.png" group-title="IAB1",Stingray Pop Adult
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-pop-adult/2dbfd63a-b42e-471e-973b-27d363cbeaad/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-pop-adult/master.m3u8
+#EXTINF:-1 tvg-id="1110" tvg-name="Stingray Classic Rock" tvg-logo="https://a.jsrdn.com/hls/22865/stingray-classic-rock/logo_20231219_222210_68.png" group-title="IAB1",Stingray Classic Rock
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-classic-rock/29b30832-cd70-4e61-a64e-66f7184c3eca/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-classic-rock/master.m3u8
+#EXTINF:-1 tvg-id="1111" tvg-name="Stingray Remember the 80s" tvg-logo="https://a.jsrdn.com/hls/22865/stringray-remember-the-80s/logo_20231219_222612_68.png" group-title="IAB1",Stingray Remember the 80s
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-remember-the-80s/d58ebca5-6d14-4e9e-be95-135faa696838/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-remember-the-80s/master.m3u8
+#EXTINF:-1 tvg-id="1112" tvg-name="Stingray Éxitos del Momento" tvg-logo="https://a.jsrdn.com/hls/22865/stingray-todays-latin-pop/logo_20231219_222310_55.png" group-title="IAB1",Stingray Éxitos del Momento
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-xitos-del-momento/ddc97a7f-4582-479a-bd8c-db2dcc6c17a3/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-xitos-del-momento/master.m3u8
+#EXTINF:-1 tvg-id="1113" tvg-name="Stingray Greatest Hits" tvg-logo="https://a.jsrdn.com/hls/22865/stingray-greatest-hits/logo_20231219_222354_68.png" group-title="IAB1",Stingray Greatest Hits
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-greatest-hits/cda9afcf-36de-4f11-8f0b-d2c37ff86cf2/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-greatest-hits/master.m3u8
+#EXTINF:-1 tvg-id="1114" tvg-name="Stingray HipHop and RnB" tvg-logo="https://a.jsrdn.com/hls/22865/stingray-hiphop-and-rnb/logo_20231219_222417_68.png" group-title="IAB1",Stingray HipHop and RnB
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-hiphop-and-rnb/29413205-0ab2-42d0-91d2-78a953c843aa/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-hiphop-and-rnb/master.m3u8
+#EXTINF:-1 tvg-id="1115" tvg-name="Stingray Flashback 70s" tvg-logo="https://a.jsrdn.com/hls/22865/stingray-flashback-70s/logo_20231219_222333_68.png" group-title="IAB1",Stingray Flashback 70s
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-flashback-70s/e5728576-b4ca-480f-8e86-b8046debb98b/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/stingray-flashback-70s/master.m3u8
 #EXTINF:-1 tvg-id="1116" tvg-name="Schwab Network" tvg-logo="https://a.jsrdn.com/hls/22849/schwab-network/logo_20231219_221750_68.png" group-title="IAB13",Schwab Network
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tdameritrade/cc6c8572-678e-4f86-b312-aef50799d826/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tdameritrade/playlist.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tdameritrade/d6786070-e6b9-4e64-b6a1-73386beca99a/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tdameritrade/playlist.m3u8
 #EXTINF:-1 tvg-id="1127" tvg-name="CJC Television Network" tvg-logo="https://a.jsrdn.com/hls/22886/cjc-television-network/logo_20231219_192447_56.png" group-title="IAB1",CJC Television Network
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/cjc-television-network/24dc6b38-02f2-49ed-a8dc-f3069335c59b/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/cjc-television-network/55e06661da359ab51bbb2d563521f4b2.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/cjc-television-network/0074a9e2-aaaa-4d43-b6f2-99eb0358b025/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/cjc-television-network/55e06661da359ab51bbb2d563521f4b2.m3u8
 #EXTINF:-1 tvg-id="1130" tvg-name="World Poker Tour" tvg-logo="https://a.jsrdn.com/hls/22893/world-poker-tour/logo_20231219_224338_70.png" group-title="IAB9",World Poker Tour
-https://d3w4n3hhseniak.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/WPT-DistroTV/4c515df8-46ca-41f7-a9f6-29ac58794339/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/WPT-DistroTV/150.m3u8
+https://d3w4n3hhseniak.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/WPT-DistroTV/cf97a156-1775-4c90-8e9e-cd4061d14238/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/WPT-DistroTV/150.m3u8
+#EXTINF:-1 tvg-id="1187" tvg-name="Law & Crime" tvg-logo="https://a.jsrdn.com/hls/22884/law-crime/logo_20240131_212533_70.png" group-title="IAB12",Law & Crime
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/law-crime/05e16111-4c4f-4639-8250-d86c3349ca75/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/law-crime/playlist_scte.m3u8
+#EXTINF:-1 tvg-id="1195" tvg-name="24 Hour Free Movies" tvg-logo="https://a.jsrdn.com/hls/22907/24-hour-free-movies/logo_20231219_183702_63.png" group-title="IAB1",24 Hour Free Movies
+https://d1b5mlajbmvkjv.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/UDU-DistroTV/0141677a-30b0-4b73-aae6-ba5dfca50df9/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/UDU-DistroTV/145.m3u8
 #EXTINF:-1 tvg-id="1208" tvg-name="Channel Fight" tvg-logo="https://a.jsrdn.com/hls/23007/channel-fight/logo_20231219_190128_68.png" group-title="IAB17",Channel Fight
-https://d15wqvt0xm15k4.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/ChannelFight-DistroTV/60c14e23-400a-44c5-9ae1-8ef59fc18e7f/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/ChannelFight-DistroTV/266.m3u8
+https://d15wqvt0xm15k4.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/ChannelFight-DistroTV/d96ecb3a-0989-4388-94b9-7b3e4f11f4d4/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/ChannelFight-DistroTV/266.m3u8
 #EXTINF:-1 tvg-id="1239" tvg-name="SportsGrid" tvg-logo="https://a.jsrdn.com/hls/22918/sportsgrid/logo_20231219_222046_68.png" group-title="IAB17",SportsGrid
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/sportsgrid/c76577cc-200b-49ab-81e8-f6f4d943a1be/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/sportsgrid/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/sportsgrid/d126da1a-dfcc-4b08-b3fb-8f736befef73/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/sportsgrid/master.m3u8
 #EXTINF:-1 tvg-id="1240" tvg-name="Revry" tvg-logo="https://a.jsrdn.com/hls/22919/revry/logo_20231219_221503_68.png" group-title="IAB14",Revry
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/revry/098f18c8-53a9-4804-88b8-159cde9aa8f9/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/revry/playlist.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/revry/7a59037d-64fd-410a-8a04-374d2e5b9e6b/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/revry/playlist.m3u8
 #EXTINF:-1 tvg-id="1242" tvg-name="Revry Her" tvg-logo="https://a.jsrdn.com/hls/22919/revry-her/logo_20231219_221435_68.png" group-title="IAB14",Revry Her
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/revry-her/a4c0bf08-3639-4d3d-b79f-a37553d040df/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/revry-her/playlist.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/revry-her/6acaee9f-6ec2-4d3e-ab5d-da39c65d0220/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/revry-her/playlist.m3u8
 #EXTINF:-1 tvg-id="1244" tvg-name="Euronews" tvg-logo="https://a.jsrdn.com/hls/22886/euronews/logo_20231218_175557_70.png" group-title="IAB12",Euronews
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews/e1c91864-96c3-4ead-b89d-8f1fd97e29d2/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/euronews/euronews-en.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews/27995b2e-c754-4db2-a280-a051f4558133/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/euronews/euronews-en.m3u8
 #EXTINF:-1 tvg-id="1245" tvg-name="Euronews Español" tvg-logo="https://a.jsrdn.com/hls/22886/euronews-spa/logo_20231218_175505_70.png" group-title="IAB12",Euronews Español
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews-spa/2327ae6d-2354-41ef-bfef-12069ff087af/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/euronews-spa/euronews-es.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews-spa/e7432c7e-9f8c-42cd-9041-801f93cbf8a4/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/euronews-spa/euronews-es.m3u8
+#EXTINF:-1 tvg-id="1257" tvg-name="Bloomberg Television" tvg-logo="https://a.jsrdn.com/hls/22938/bloomberg-television/logo_20231219_184756_59.png" group-title="IAB13",Bloomberg Television
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bloomberg-television/554802fc-684c-4d39-8f86-af361fd9141b/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bloomberg-television/bloombergtv.m3u8
+#EXTINF:-1 tvg-id="1259" tvg-name="CineLife" tvg-logo="https://a.jsrdn.com/hls/22933/cinelife/logo_20231219_192316_68.png" group-title="IAB1",CineLife
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/cinelife/f908192c-0847-4f80-9f31-78c833b00bc0/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/cinelife/playlist.m3u8
+#EXTINF:-1 tvg-id="1641" tvg-name="Bloomberg Originals" tvg-logo="https://a.jsrdn.com/hls/22938/bloomberg-originals/logo_20231219_184737_67.png" group-title="IAB5",Bloomberg Originals
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bloomberg-quicktake/1c1a09a5-822c-4c82-adcd-c4584fde83df/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bloomberg-quicktake/bloombergqt.m3u8
+#EXTINF:-1 tvg-id="1686" tvg-name="NOST - The Nostalgia Network" tvg-logo="https://a.jsrdn.com/hls/22956/nost-the-nostalgia-network/logo_20231219_220428_70.png" group-title="IAB1",NOST - The Nostalgia Network
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/nost-the-nostalgia-network/090a9034-cee2-47d8-92cf-8aec4504b042/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/nost-the-nostalgia-network/nost1.m3u8
+#EXTINF:-1 tvg-id="1687" tvg-name="ShopLC" tvg-logo="https://a.jsrdn.com/hls/22957/shoplc/logo_20231219_221828_30.png" group-title="IAB22",ShopLC
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/shoplc/bd8cfc3a-2b3c-48b6-aa23-ac83d88fce7b/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/shoplc/master.m3u8
+#EXTINF:-1 tvg-id="1709" tvg-name="Journy" tvg-logo="https://a.jsrdn.com/hls/22944/journy/logo_20231219_214422_44.png" group-title="IAB20",Journy
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/journy/5d398328-e64a-4649-83c7-a86686a75a81/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/journy/playlist.m3u8
 #EXTINF:-1 tvg-id="1714" tvg-name="MotorRacing" tvg-logo="https://a.jsrdn.com/hls/22705/motorracing/logo_20231219_215946_68.png" group-title="IAB17",MotorRacing
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/motorracing/639f82e8-cf77-4d0e-b44d-c9529940648c/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/motorracing/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/motorracing/a0b49b10-135b-4233-a8e5-241877c56919/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/motorracing/master.m3u8
 #EXTINF:-1 tvg-id="1741" tvg-name="WION World is One News" tvg-logo="https://a.jsrdn.com/hls/22975/wion-world-is-one-news/logo_20231219_224158_68.png" group-title="IAB12",WION World is One News
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/wion-world-is-one-news/e2481dcc-439b-45aa-a520-15f20d57f72e/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/wion-world-is-one-news/index.m3u8
-#EXTINF:-1 tvg-id="1755" tvg-name="Times Now News" tvg-logo="https://a.jsrdn.com/hls/22979/times-now-news/logo_20231219_223209_62.png" group-title="IAB12",Times Now News
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/times-now-news/c3e3712c-a271-4254-b64f-fff379cf234a/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/times-now-news/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/wion-world-is-one-news/a930906b-3cb9-4825-aaff-b62f922fe855/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/wion-world-is-one-news/index.m3u8
 #EXTINF:-1 tvg-id="1760" tvg-name="Billiard TV" tvg-logo="https://a.jsrdn.com/hls/22964/billiard-tv/logo_20231219_184548_37.png" group-title="IAB17",Billiard TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/billiard-tv/b8008576-bc3c-4a9d-a914-b9112ce1ac1d/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/billiard-tv/billi.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/billiard-tv/7144cc19-0cb6-4a65-ae7f-1e9c282316f3/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/billiard-tv/billi.m3u8
 #EXTINF:-1 tvg-id="1761" tvg-name="BarkTV" tvg-logo="https://a.jsrdn.com/hls/22964/barktv/logo_20240220_175434_70.png" group-title="IAB1",BarkTV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/barktv/88f17526-045e-49e0-8ee8-1012a4a2f955/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/barktv/barkt.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/barktv/7958a0b6-9195-4a13-baca-9c6b5beeca7b/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/barktv/barkt.m3u8
 #EXTINF:-1 tvg-id="1791" tvg-name="Mirror Now" tvg-logo="https://a.jsrdn.com/hls/22979/mirror-now/logo_20231219_215545_66.png" group-title="IAB12",Mirror Now
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mirror-now/8b623ad8-ac05-4120-bab3-f14700f0179f/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mirror-now/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mirror-now/675e3922-b718-46f7-8186-5291abd380e0/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mirror-now/master.m3u8
 #EXTINF:-1 tvg-id="1807" tvg-name="Times Now Navbharat" tvg-logo="https://a.jsrdn.com/hls/22979/times-now-navbharat/logo_20231219_223143_59.png" group-title="IAB12",Times Now Navbharat
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/times-now-navbharat/6f10baf7-fb81-434d-97f6-f1ce529eeae6/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/times-now-navbharat/master.m3u8
-#EXTINF:-1 tvg-id="1809" tvg-name="Zoom" tvg-logo="https://a.jsrdn.com/hls/22979/zoom-tv/logo_20231219_224525_56.png" group-title="IAB1",Zoom
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/zoom-tv/31480912-64ab-47cd-88b7-820b175c4cb7/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/zoom-tv/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/times-now-navbharat/0f5fdfa2-a0bc-4f13-acb1-269ac76e71a1/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/times-now-navbharat/master.m3u8
+#EXTINF:-1 tvg-id="2199" tvg-name="ACE TV" tvg-logo="https://a.jsrdn.com/hls/22990/ace-tv/logo_20231219_183914_68.png" group-title="IAB1",ACE TV
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/ace-tv/739f49d9-afcc-40b7-9ab1-af5ddbd271fd/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/ace-tv/playlist.m3u8
+#EXTINF:-1 tvg-id="2212" tvg-name="Real America's Voice" tvg-logo="https://a.jsrdn.com/hls/22995/real-americas-voice/logo_20231219_221226_64.png" group-title="IAB12",Real America's Voice
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/real-americas-voice/8016958e-1ce8-4df2-bf98-3c487c58587c/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/real-americas-voice/RAVDistroTV.m3u8
 #EXTINF:-1 tvg-id="2507" tvg-name="Powersports World" tvg-logo="https://a.jsrdn.com/hls/22964/powersports-world/logo_20240917_170643_68.png" group-title="IAB17",Powersports World
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/powersports-world/cfdb33b3-8754-4662-9c0a-29743953dd6a/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/powersports-world/pwrsp.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/powersports-world/fea90add-0f2f-408d-b905-63ec20fb5962/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/powersports-world/pwrsp.m3u8
 #EXTINF:-1 tvg-id="2531" tvg-name="Garv Punjab Gurbani" tvg-logo="https://a.jsrdn.com/hls/22994/garv-punjab-gurbani/logo_20231219_202149_65.png" group-title="IAB23",Garv Punjab Gurbani
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/garv-punjab-gurbani/8ae62999-462e-4088-8426-dce33ea6435b/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/garv-punjab-gurbani/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/garv-punjab-gurbani/6d9aa431-9268-464e-ba49-5c0b13999f8e/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/garv-punjab-gurbani/index.m3u8
 #EXTINF:-1 tvg-id="2532" tvg-name="Swar Shree" tvg-logo="https://a.jsrdn.com/hls/22994/swar-shree/logo_20231219_222755_45.png" group-title="IAB23",Swar Shree
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/swar-shree/01d98eb2-59ff-4ba7-bf74-c689ab0eab03/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/swar-shree/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/swar-shree/06cdaf27-9dc3-4bc4-9f38-7dbd8cb2fe36/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/swar-shree/index.m3u8
 #EXTINF:-1 tvg-id="2540" tvg-name="True History" tvg-logo="https://a.jsrdn.com/hls/23001/true-history/logo_20231219_223655_68.png" group-title="IAB5",True History
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/true-history/20c6b70d-13ee-432d-badf-db3c0188ffe3/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/true-history/playlist.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/true-history/e995bcc2-3234-4da7-b8e1-5da853341a9f/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/true-history/playlist.m3u8
 #EXTINF:-1 tvg-id="2674" tvg-name="ACL Cornhole TV" tvg-logo="https://a.jsrdn.com/hls/22964/acl-cornhole-tv/logo_20231219_183932_68.png" group-title="IAB17",ACL Cornhole TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/acl-cornhole-tv/58e14bea-8f8f-480d-9633-f7ffa2fdd5d2/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/acl-cornhole-tv/aclco.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/acl-cornhole-tv/144c35de-f40c-4d6f-b819-8f41eef0ba88/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/acl-cornhole-tv/aclco.m3u8
 #EXTINF:-1 tvg-id="2787" tvg-name="Hare Krsna" tvg-logo="https://a.jsrdn.com/hls/22994/hare-krsna/logo_20231219_202633_68.png" group-title="IAB23",Hare Krsna
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/hare-krsna/24943ce6-99cc-413c-b323-09fdca941cfa/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/hare-krsna/playlist.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/hare-krsna/ff2f776d-ff4b-40d8-bb25-5c1d327ef1bf/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/hare-krsna/playlist.m3u8
 #EXTINF:-1 tvg-id="2800" tvg-name="TV Punjab" tvg-logo="https://a.jsrdn.com/hls/23015/tv-punjab/logo_20231219_223846_50.png" group-title="IAB12",TV Punjab
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv-punjab/9aa50d7d-3a0d-46b4-839b-0ec9f59991c5/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tv-punjab/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv-punjab/bec8000a-e324-45b0-8eb3-d4c158197a86/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tv-punjab/master.m3u8
+#EXTINF:-1 tvg-id="2842" tvg-name="Swerve Combat" tvg-logo="https://a.jsrdn.com/hls/23018/swerve-combat/logo_20231219_222813_26.png" group-title="IAB17",Swerve Combat
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/swerve-combat/946e66d5-9693-4e7f-aef0-15c1041e290e/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/swerve-combat/playlist.m3u8
 #EXTINF:-1 tvg-id="2889" tvg-name="ABP News" tvg-logo="https://a.jsrdn.com/hls/23011/abp-news/logo_20250512_175525_68.png" group-title="IAB12",ABP News
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-news/ef3e0e11-80ec-49fc-a1c6-c5787baf9d41/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/abp-news/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-news/180723fc-8685-478f-884f-0385cf311681/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/abp-news/master.m3u8
 #EXTINF:-1 tvg-id="2890" tvg-name="ABP Asmita" tvg-logo="https://a.jsrdn.com/hls/23011/abp-asmita/logo_20250512_175437_68.png" group-title="IAB12",ABP Asmita
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-asmita/558720b8-a9b2-4391-8486-b32aa36628f8/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/abp-asmita/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-asmita/8533d8cd-165d-425f-9e4a-029ddf95544f/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/abp-asmita/master.m3u8
 #EXTINF:-1 tvg-id="2891" tvg-name="ABP Majha" tvg-logo="https://a.jsrdn.com/hls/23011/abp-majha/logo_20250512_175510_68.png" group-title="IAB12",ABP Majha
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-majha/54dba5b3-2531-47b7-b241-e68f894dfb5f/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/abp-majha/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-majha/9bad1f3d-de80-4ccd-9726-396a895ea876/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/abp-majha/master.m3u8
 #EXTINF:-1 tvg-id="2892" tvg-name="ABP Ananda" tvg-logo="https://a.jsrdn.com/hls/23011/abp-ananda/logo_20250512_175422_68.png" group-title="IAB12",ABP Ananda
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/10dc783f-140a-4d56-a2e7-297c0c17d465/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/74347d59-ae04-4229-bf38-2cf48c1106e0/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ananda/master.m3u8
 #EXTINF:-1 tvg-id="2893" tvg-name="ABP Ganga" tvg-logo="https://a.jsrdn.com/hls/23011/abp-ganga/logo_20250512_175453_68.png" group-title="IAB12",ABP Ganga
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ganga/1eb86d9a-b5b6-4fec-b3e3-d1e481f95bc1/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ganga/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ganga/3e0c4d63-16af-4c58-a28a-8914c895d0bb/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/abp-ganga/master.m3u8
 #EXTINF:-1 tvg-id="2894" tvg-name="ABP Sanjha" tvg-logo="https://a.jsrdn.com/hls/23011/abp-sanjha/logo_20250512_175546_68.png" group-title="IAB12",ABP Sanjha
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-sanjha/109ee9f2-95ab-491e-974f-0d93032d641f/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/abp-sanjha/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-sanjha/e741dda3-4699-4622-9b66-3f327c91743d/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/abp-sanjha/master.m3u8
 #EXTINF:-1 tvg-id="2930" tvg-name="Bless TV" tvg-logo="https://a.jsrdn.com/hls/23015/bless-tv/logo_20231219_184716_61.png" group-title="IAB23",Bless TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bless-tv/d03c39f1-b064-40db-83a5-3272a7aedbf4/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bless-tv/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bless-tv/5029af3a-75e3-4373-8c62-0c41bc2977c0/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bless-tv/master.m3u8
 #EXTINF:-1 tvg-id="3074" tvg-name="NatureStream.tv" tvg-logo="https://a.jsrdn.com/hls/23037/naturestreamtv/logo_20231219_220128_53.png" group-title="IAB20",NatureStream.tv
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/naturestreamtv/b3a6d565-e4f5-4dbe-8f04-7ee1eb61a8a5/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/naturestreamtv/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/naturestreamtv/b1a60c3e-3d5a-4c20-8fc7-733197ac3814/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/naturestreamtv/master.m3u8
 #EXTINF:-1 tvg-id="3109" tvg-name="FITE 24/7" tvg-logo="https://a.jsrdn.com/hls/23007/fite-247/logo_20231219_225031_42.png" group-title="IAB17",FITE 24/7
-https://d3d85c7qkywguj.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/FiteTV-DistroTV/ad3f2c38-c522-428e-86fe-e2be9be98da6/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/FiteTV-DistroTV/263.m3u8
+https://d3d85c7qkywguj.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/FiteTV-DistroTV/4d538a11-db7d-4813-a5f1-0a28678fbd56/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/FiteTV-DistroTV/263.m3u8
 #EXTINF:-1 tvg-id="3120" tvg-name="Africanews" tvg-logo="https://a.jsrdn.com/hls/22886/africanews/logo_20231218_175639_70.png" group-title="IAB12",Africanews
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/africanews/6722d408-2689-4546-be20-3d27674634a0/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/africanews/africanews-en.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/africanews/fa8eaa8c-d7c4-4189-aba7-c43acbf39ea4/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/africanews/africanews-en.m3u8
+#EXTINF:-1 tvg-id="3125" tvg-name="beIN SPORTS Xtra" tvg-logo="https://a.jsrdn.com/hls/23038/bein-sports-xtra/logo_20231219_184505_68.png" group-title="IAB17",beIN SPORTS Xtra
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra/ae5d643e-255b-4486-be6e-46af85a7b4fc/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra/playlist.m3u8
+#EXTINF:-1 tvg-id="3126" tvg-name="beIN SPORTS Xtra en Español" tvg-logo="https://a.jsrdn.com/hls/23038/bein-sports-xtra-en-espanol/logo_20231219_184521_68.png" group-title="IAB17",beIN SPORTS Xtra en Español
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra-en-espanol/02bb6c18-8fdb-4d34-bc7d-96168713f77b/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bein-sports-xtra-en-espanol/playlist.m3u8
 #EXTINF:-1 tvg-id="3132" tvg-name="Pitaara TV" tvg-logo="https://a.jsrdn.com/hls/23049/pitaara-tv/logo_20231219_220959_63.png" group-title="IAB1",Pitaara TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/pitaara-tv/021a12fd-d0ea-4d2a-ba3f-901fba36c3b8/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/pitaara-tv/playlist.m3u8
-#EXTINF:-1 tvg-id="3166" tvg-name="FUEL TV" tvg-logo="https://a.jsrdn.com/hls/23055/fuel-tv-ww/logo_20231219_202054_68.png" group-title="IAB17",FUEL TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/fuel-tv-ww/2c3e030e-b906-4ffb-bde3-5ff4a7a9970d/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/fuel-tv-ww/playlist.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/pitaara-tv/08a5c6f3-b0a3-49bf-8770-dc271e8485b7/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/pitaara-tv/playlist.m3u8
+#EXTINF:-1 tvg-id="3162" tvg-name="FUEL TV" tvg-logo="https://a.jsrdn.com/hls/23055/fuel-tv/logo_20231219_202037_68.png" group-title="IAB17",FUEL TV
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/fuel-tv/e1c6312e-86c3-4a36-9d18-3f98cf63e101/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/fuel-tv/playlist.m3u8
 #EXTINF:-1 tvg-id="3187" tvg-name="Gusto TV" tvg-logo="https://a.jsrdn.com/hls/23062/gusto-tv/logo_20231219_202519_56.png" group-title="IAB8",Gusto TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/gusto-tv/74e2bede-ad71-4b3b-9796-8e2639687fe0/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/gusto-tv/playlist.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/gusto-tv/c9822e45-1576-4176-a994-afe80970a116/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/gusto-tv/playlist.m3u8
 #EXTINF:-1 tvg-id="3193" tvg-name="4K TRAVEL TV" tvg-logo="https://a.jsrdn.com/hls/23064/4k-travel-tv/logo_20231219_183416_68.png" group-title="IAB20",4K TRAVEL TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/4k-travel-tv/87ddfdb9-6e47-4007-80dc-1bf3346f1cd1/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/4k-travel-tv/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/4k-travel-tv/07e7fe94-520b-4063-861a-59a10e24af1f/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/4k-travel-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="3196" tvg-name="ENCORE+" tvg-logo="https://a.jsrdn.com/hls/23064/encore/logo_20231219_201123_50.png" group-title="IAB1",ENCORE+
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/encore/6f86d05c-101e-4867-8a0b-d247ec67a863/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/encore/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/encore/3715fb83-30c6-46bb-9587-5b872dbb0e05/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/encore/master.m3u8
 #EXTINF:-1 tvg-id="3197" tvg-name="KOZOOM TV" tvg-logo="https://a.jsrdn.com/hls/23064/kozoom-tv/logo_20231219_214836_63.png" group-title="IAB17",KOZOOM TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/kozoom-tv/b66b1c1e-146a-4ea0-8659-ab276da95eeb/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/kozoom-tv/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/kozoom-tv/dfc955cb-e8bb-4226-978b-56ba0a1e5b31/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/kozoom-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="3239" tvg-name="Balle Balle" tvg-logo="https://a.jsrdn.com/hls/23060/balle-balle/logo_20231219_184445_68.png" group-title="IAB1",Balle Balle
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/balle-balle/6028806f-ae30-4144-a5f3-0791de69a6eb/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/balle-balle/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/balle-balle/df99f251-1a00-4c1b-a906-8f0db0c69f13/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/balle-balle/index.m3u8
 #EXTINF:-1 tvg-id="3242" tvg-name="TRACE Latina" tvg-logo="https://a.jsrdn.com/hls/23073/trace-latina/logo_20231219_223517_68.png" group-title="IAB1",TRACE Latina
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/trace-latina/082cc137-d27d-4d28-a541-481bcaa7242e/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/trace-latina/encrypted.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/trace-latina/0ea3bf64-949e-4347-b8a7-95bbc9ce9e4a/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/trace-latina/encrypted.m3u8
 #EXTINF:-1 tvg-id="3243" tvg-name="TRACE Urban" tvg-logo="https://a.jsrdn.com/hls/23073/trace-urban/logo_20231219_223537_68.png" group-title="IAB1",TRACE Urban
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/trace-urban/61276801-608d-43db-949c-0fcb13d74f10/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/trace-urban/encrypted.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/trace-urban/f47951af-ce64-42d2-9edd-1f7605d0bce9/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/trace-urban/encrypted.m3u8
 #EXTINF:-1 tvg-id="3259" tvg-name="Bollywood Classic" tvg-logo="https://a.jsrdn.com/hls/23077/bollywood-classic/logo_20231219_184825_52.png" group-title="IAB1",Bollywood Classic
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-classic/c2b324ef-f83e-49b2-85bd-70b4c8e42db0/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-classic/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-classic/21660c6e-1527-4f34-ad75-8f76e6420bfc/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-classic/manifest.m3u8
 #EXTINF:-1 tvg-id="3260" tvg-name="Bollywood HD" tvg-logo="https://a.jsrdn.com/hls/23077/bollywood-hd/logo_20231219_184845_51.png" group-title="IAB1",Bollywood HD
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/494e91c9-1e17-469c-b2a3-06dbb39eb41e/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/da594df3-23e3-4227-b409-46dd3ac49eb2/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/manifest.m3u8
 #EXTINF:-1 tvg-id="3307" tvg-name="TRACE Brazuca" tvg-logo="https://a.jsrdn.com/hls/23073/trace-brazuca/logo_20231219_223457_68.png" group-title="IAB1",TRACE Brazuca
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/trace-brazuca/635c7373-e028-49e1-ad4d-39a83e6747ba/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/trace-brazuca/encrypted.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/trace-brazuca/775c387b-4faa-4103-b69a-abc2ad1b1540/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/trace-brazuca/encrypted.m3u8
 #EXTINF:-1 tvg-id="3369" tvg-name="Motorvision TV" tvg-logo="https://a.jsrdn.com/hls/22886/motorvision-tv/logo_20231219_220026_63.png" group-title="IAB2",Motorvision TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/motorvision-tv/45fdc58b-271c-477b-95af-18b00d9d3a60/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/motorvision-tv/a.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/motorvision-tv/76c3def0-5ed9-4058-a6fa-7f0131296a6c/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/motorvision-tv/a.m3u8
 #EXTINF:-1 tvg-id="3370" tvg-name="Motorvision TV Español" tvg-logo="https://a.jsrdn.com/hls/22886/motorvision-tv-espanol/logo_20231219_220007_67.png" group-title="IAB2",Motorvision TV Español
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/motorvision-tv-espanol/8815c22b-5dc8-4db5-8b59-134694d9061a/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/motorvision-tv-espanol/mv_es.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/motorvision-tv-espanol/5b8bb562-b2ac-4b7d-8f2f-46c031554125/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/motorvision-tv-espanol/mv_es.m3u8
 #EXTINF:-1 tvg-id="3426" tvg-name="DeFiance Media" tvg-logo="https://a.jsrdn.com/hls/23095/defiance-media/logo_20231219_193005_68.png" group-title="IAB3",DeFiance Media
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/defiance-media/cc5567b6-3026-4bdc-8695-723d3addc65b/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/defiance-media/playlist.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/defiance-media/df4c38a1-abd9-40e6-a3c8-7aeb9931aeaf/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/defiance-media/playlist.m3u8
 #EXTINF:-1 tvg-id="3570" tvg-name="CraftsyTV" tvg-logo="https://a.jsrdn.com/hls/23108/craftsytv/logo_20231219_192821_64.png" group-title="IAB9",CraftsyTV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/craftsytv/48f8eb74-bdc8-423b-ada6-89507dd35762/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/craftsytv/playlist.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/craftsytv/28013f24-996c-4149-a61c-37f8bd1fc0d4/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/craftsytv/playlist.m3u8
 #EXTINF:-1 tvg-id="3612" tvg-name="9XM" tvg-logo="https://a.jsrdn.com/hls/23111/9xm/logo_20240607_163326_70.png" group-title="IAB1",9XM
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/c83a3ac4-1a7e-4699-9981-9e1267c01334/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/c2a497a6-aff9-4bc5-ab5a-455b006fa70a/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/master.m3u8
 #EXTINF:-1 tvg-id="3613" tvg-name="9X Jalwa" tvg-logo="https://a.jsrdn.com/hls/23111/9x-jalwa/logo_20231219_183550_55.png" group-title="IAB1",9X Jalwa
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/375d21e7-5011-4088-9ee6-0ceb488cb128/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/144319ea-4e77-4a64-8b9d-29fb41681fd6/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/9x-jalwa/master.m3u8
 #EXTINF:-1 tvg-id="3633" tvg-name="BritAsiaTV" tvg-logo="https://a.jsrdn.com/hls/22693/britasiatv/logo_20231219_185045_64.png" group-title="IAB1",BritAsiaTV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/britasiatv/e890b0e8-40c6-49dc-a122-3fdd51eeedc4/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/britasiatv/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/britasiatv/78ae61b0-466f-4af3-b906-dd87c0cbe8db/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/britasiatv/master.m3u8
+#EXTINF:-1 tvg-id="3643" tvg-name="Jewish Life Television JLTV" tvg-logo="https://a.jsrdn.com/hls/23114/jewish-life-television-jltv/logo_20231219_214334_56.png" group-title="IAB23",Jewish Life Television JLTV
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/jewish-life-television-jltv/2732b466-754e-470b-a96d-645cfc167eac/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/jewish-life-television-jltv/jltv.m3u8
 #EXTINF:-1 tvg-id="4104" tvg-name="News9Live" tvg-logo="https://a.jsrdn.com/hls/23129/news9live/logo_20250813_011629_68.jpg" group-title="IAB12",News9Live
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/news9live/99bdbf26-25ba-41c3-b605-0150b323edd7/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/news9live/main.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/news9live/d11be9dc-2cd4-471a-a9c7-09609610a813/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/news9live/main.m3u8
 #EXTINF:-1 tvg-id="4105" tvg-name="TV9 Bangla" tvg-logo="https://a.jsrdn.com/hls/23129/tv9-bangla/logo_20231219_225218_68.png" group-title="IAB12",TV9 Bangla
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-bangla/cdcc5236-1e0f-45cf-8077-1dcd2248a745/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-bangla/main.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-bangla/3fcd0ed9-39d0-451b-a736-4dc6336e4de9/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-bangla/main.m3u8
 #EXTINF:-1 tvg-id="4106" tvg-name="TV9 Bharatvarsh" tvg-logo="https://a.jsrdn.com/hls/23129/tv9-bharatvarsh/logo_20250813_011816_68.jpg" group-title="IAB12",TV9 Bharatvarsh
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-bharatvarsh/eb39debe-97d5-4def-a07a-963dc6e5e9fd/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-bharatvarsh/main.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-bharatvarsh/162af98c-6e48-4e82-9974-c7096c6d4a05/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-bharatvarsh/main.m3u8
 #EXTINF:-1 tvg-id="4107" tvg-name="TV9 Gujarati" tvg-logo="https://a.jsrdn.com/hls/23129/tv9-gujarati/logo_20231219_225259_68.png" group-title="IAB12",TV9 Gujarati
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-gujarati/1bb0de6d-7989-4b49-a2ac-2693e17a04f7/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-gujarati/main.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-gujarati/7e96b9ef-3420-4618-b9b0-a54840d39717/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-gujarati/main.m3u8
 #EXTINF:-1 tvg-id="4108" tvg-name="TV9 Kannada" tvg-logo="https://a.jsrdn.com/hls/23129/tv9-kannada/logo_20231219_225317_68.png" group-title="IAB12",TV9 Kannada
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-kannada/58f2e996-3cb5-4ed6-9c34-4b8874c12744/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-kannada/main.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-kannada/b821d7be-c395-4387-9a8d-7238103d9f20/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-kannada/main.m3u8
 #EXTINF:-1 tvg-id="4109" tvg-name="TV9 Marathi" tvg-logo="https://a.jsrdn.com/hls/23129/tv9-marathi/logo_20231219_225337_68.png" group-title="IAB12",TV9 Marathi
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-marathi/b71d5f28-fd81-4fd6-86e1-5dc8b99a98de/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-marathi/main.m3u8
-#EXTINF:-1 tvg-id="4110" tvg-name="TV9 Telugu" tvg-logo="https://a.jsrdn.com/hls/23129/tv9-telugu/logo_20231219_225400_68.png" group-title="IAB12",TV9 Telugu
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-telugu/81c5dccb-559e-49b6-bed7-9593379cb6c2/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-telugu/main.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-marathi/e343b026-c556-47ec-a58f-e8c47d9befc7/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-marathi/main.m3u8
+#EXTINF:-1 tvg-id="4503" tvg-name="TV9 Telugu USA" tvg-logo="https://a.jsrdn.com/hls/23129/tv9-telugu-usa/logo_20231219_225420_68.png" group-title="IAB12",TV9 Telugu USA
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-telugu-usa/22e9d63f-59f3-4aa4-97f4-5af349414ce3/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-telugu-usa/main.m3u8
 #EXTINF:-1 tvg-id="4554" tvg-name="crema.tv" tvg-logo="https://a.jsrdn.com/hls/22886/crematv/logo_20231219_192845_64.png" group-title="IAB8",crema.tv
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/crematv/3427a85d-8f8d-4cc5-81b2-73ea42c43c32/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/crematv/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/crematv/65ed995a-c0cc-4905-8604-af9d3a59a094/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/crematv/master.m3u8
 #EXTINF:-1 tvg-id="4581" tvg-name="FEVA TV" tvg-logo="https://a.jsrdn.com/hls/23132/feva-tv/logo_20231219_201430_69.png" group-title="IAB1",FEVA TV
-https://d21x3vavxu7p2x.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-FEVATV/689768ba-c724-4a98-b03c-1b3c74d57188/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-FEVATV/416.m3u8
+https://d21x3vavxu7p2x.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-FEVATV/8bfe03c8-6939-41f2-bf0f-35966f94c6c5/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-FEVATV/416.m3u8
 #EXTINF:-1 tvg-id="4595" tvg-name="FEVA MUSIC" tvg-logo="https://a.jsrdn.com/hls/23132/feva-music/logo_20231219_201409_70.png" group-title="IAB1",FEVA MUSIC
-https://dmecgxuzr2ywk.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-FEVAMusic/42f6fb5c-9349-4a03-81bb-c5f7ce909b25/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-FEVAMusic/417.m3u8
+https://dmecgxuzr2ywk.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-FEVAMusic/bfb8a721-c9c5-41d7-bdf6-1210595c0674/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-FEVAMusic/417.m3u8
 #EXTINF:-1 tvg-id="4602" tvg-name="Lakshya TV" tvg-logo="https://a.jsrdn.com/hls/22994/lakshya-tv/logo_20231219_215028_60.png" group-title="IAB23",Lakshya TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/lakshya-tv/85731442-5498-454c-b3aa-0abb58c9b4c1/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/lakshya-tv/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/lakshya-tv/690d42b0-d10a-46ec-a778-dfd22283d1d6/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/lakshya-tv/index.m3u8
 #EXTINF:-1 tvg-id="4603" tvg-name="Kartavya TV" tvg-logo="https://a.jsrdn.com/hls/22994/kartavya-tv/logo_20231219_214633_61.png" group-title="IAB23",Kartavya TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/kartavya-tv/4e0122c6-1949-4bfb-a067-cbccd77362d9/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/kartavya-tv/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/kartavya-tv/201192e8-84e4-4c59-91e8-4f8407d64427/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/kartavya-tv/index.m3u8
 #EXTINF:-1 tvg-id="4604" tvg-name="Kalyan TV" tvg-logo="https://a.jsrdn.com/hls/22994/kalyan-tv/logo_20231219_214614_65.png" group-title="IAB23",Kalyan TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/kalyan-tv/ee3fb213-1e0d-4ebb-881b-3b717aa7ebd8/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/kalyan-tv/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/kalyan-tv/0c69210e-8c45-4992-8c63-aa929853a9db/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/kalyan-tv/index.m3u8
+#EXTINF:-1 tvg-id="4914" tvg-name="Romance Channel" tvg-logo="https://a.jsrdn.com/hls/23077/romance-channel/logo_20231219_221635_53.png" group-title="IAB1",Romance Channel
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/romance-channel/1cc6fb90-2235-44a3-b73f-0a1c0dee71da/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/romance-channel/manifest.m3u8
+#EXTINF:-1 tvg-id="4918" tvg-name="NTD News" tvg-logo="https://a.jsrdn.com/hls/23136/ntd-news/logo_20240104_172901_68.png" group-title="IAB12",NTD News
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/ntd-news/086aba87-0d28-40ac-8788-9bc1ee89978e/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/ntd-news/ntd.m3u8
 #EXTINF:-1 tvg-id="4924" tvg-name="Al Arabiya" tvg-logo="https://a.jsrdn.com/hls/23137/al-arabiya/logo_20240610_195041_59.png" group-title="IAB12",Al Arabiya
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/al-arabiya/069eda62-2ac0-412c-80e8-683683463c6c/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/al-arabiya/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/al-arabiya/fe550021-6b0b-413d-a436-19485bc03fa8/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/al-arabiya/master.m3u8
 #EXTINF:-1 tvg-id="4926" tvg-name="M+" tvg-logo="https://a.jsrdn.com/hls/23137/m-plus/logo_20231219_215325_35.png" group-title="IAB1",M+
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/m-plus/eb9cdec0-4012-4174-aac5-5ecaa51f3387/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/m-plus/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/m-plus/99e5a6d7-8b68-4bc8-9913-e92610f1fd01/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/m-plus/master.m3u8
 #EXTINF:-1 tvg-id="4927" tvg-name="PNC Drama" tvg-logo="https://a.jsrdn.com/hls/23137/pnc-drama/logo_20240610_192157_60.png" group-title="IAB1",PNC Drama
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/pnc-drama/dafee8c8-f8cd-4123-a163-44318eb3488f/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/pnc-drama/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/pnc-drama/8ac6624a-ea5e-478f-ba21-94ccb5eee2f0/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/pnc-drama/master.m3u8
 #EXTINF:-1 tvg-id="4928" tvg-name="Rotana Aflam+" tvg-logo="https://a.jsrdn.com/hls/23137/rotana-aflam-plus/logo_20231219_221653_60.png" group-title="IAB1",Rotana Aflam+
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/rotana-aflam-plus/baa90841-c61f-4548-adfc-761f088b3230/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/rotana-aflam-plus/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/rotana-aflam-plus/e690eed9-045d-4f66-b653-b5a91980906b/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/rotana-aflam-plus/master.m3u8
 #EXTINF:-1 tvg-id="4957" tvg-name="Mediacorp Entertainment – Chinese" tvg-logo="https://a.jsrdn.com/hls/23077/mediacorp-entertainment-chinese/logo_20240102_185716_70.png" group-title="IAB1",Mediacorp Entertainment – Chinese
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mediacorp-entertainment-chinese/11d7b142-c08c-41f5-aeed-41c9bc04fb10/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mediacorp-entertainment-chinese/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mediacorp-entertainment-chinese/7d217dfb-4856-4558-aa52-4800f11a1c9e/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mediacorp-entertainment-chinese/manifest.m3u8
 #EXTINF:-1 tvg-id="4958" tvg-name="Mediacorp Entertainment – English" tvg-logo="https://a.jsrdn.com/hls/23077/mediacorp-entertainment-english/logo_20240102_190017_70.png" group-title="IAB1",Mediacorp Entertainment – English
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mediacorp-entertainment-english/25f9bd3c-7883-4aa6-8462-fd12ac11e3f6/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mediacorp-entertainment-english/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mediacorp-entertainment-english/c6313fd0-ee85-40c0-86b8-8938a22c2701/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mediacorp-entertainment-english/manifest.m3u8
 #EXTINF:-1 tvg-id="4959" tvg-name="Mediacorp Entertainment – Tamil" tvg-logo="https://a.jsrdn.com/hls/23077/mediacorp-entertainment-tamil/logo_20240102_190222_70.png" group-title="IAB1",Mediacorp Entertainment – Tamil
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mediacorp-entertainment-tamil/07df8a8c-cd13-4d3f-9675-369e76e175a9/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mediacorp-entertainment-tamil/manifest.m3u8
-#EXTINF:-1 tvg-id="4996" tvg-name="Shemaroo Bollywood" tvg-logo="https://a.jsrdn.com/hls/23141/shemaroo-bollywood/logo_20240206_185308_68.png" group-title="IAB1",Shemaroo Bollywood
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-bollywood/0d65eb0f-cf96-4f45-b9cf-ab977ccc199b/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-bollywood/playlist.m3u8
-#EXTINF:-1 tvg-id="4997" tvg-name="Shemaroo Filmigaane" tvg-logo="https://a.jsrdn.com/hls/23141/shemaroo-filmigaane/logo_20240206_190035_68.png" group-title="IAB1",Shemaroo Filmigaane
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-filmigaane/19659645-31cc-4862-82bf-7cffed9dd73f/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-filmigaane/playlist.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mediacorp-entertainment-tamil/2d03b089-04f0-4d73-a1eb-2024048615c3/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mediacorp-entertainment-tamil/manifest.m3u8
 #EXTINF:-1 tvg-id="5006" tvg-name="Bollywood Masala" tvg-logo="https://a.jsrdn.com/hls/23142/bollywood-masala/logo_20240213_192946_70.png" group-title="IAB1",Bollywood Masala
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-masala/22056fab-8a87-4f61-93cd-9d0a81832dde/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-masala/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-masala/67ecad31-cdf4-4d83-8355-92f0422e2255/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-masala/index.m3u8
 #EXTINF:-1 tvg-id="5049" tvg-name="YRF Music" tvg-logo="https://a.jsrdn.com/hls/23146/yrf-music/logo_20240322_175611_70.png" group-title="IAB1",YRF Music
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/yrf-music/098dd2ba-d9c8-43cb-bded-192e6946a883/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/yrf-music/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/yrf-music/3fb97435-6bf5-484f-905a-25fe77a0424a/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/yrf-music/master.m3u8
 #EXTINF:-1 tvg-id="5050" tvg-name="Saga Music" tvg-logo="https://a.jsrdn.com/hls/23146/saga-music/logo_20240322_183949_68.png" group-title="IAB1",Saga Music
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/saga-music/dd559461-17cd-4b34-8368-4af00e135d7d/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/saga-music/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/saga-music/968295a4-8fc2-4dbc-a7e9-e7f2cfe781d2/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/saga-music/master.m3u8
 #EXTINF:-1 tvg-id="5143" tvg-name="DroneTV" tvg-logo="https://a.jsrdn.com/hls/23176/dronetv/logo_20240521_191242_68.png" group-title="IAB20",DroneTV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/dronetv/b96148e1-97f7-4f74-9671-4f156123fa57/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/dronetv/playlist.m3u8
-#EXTINF:-1 tvg-id="5154" tvg-name="PLL Network" tvg-logo="https://a.jsrdn.com/hls/22964/pll-network-ww/logo_20240626_232614_70.png" group-title="IAB17",PLL Network
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/pll-network-ww/e66643ed-0533-44a8-b57b-635549bb99f4/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/pll-network-ww/pll.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/dronetv/eaec0c5c-ba00-47cc-ba7d-0191db19cb43/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/dronetv/playlist.m3u8
+#EXTINF:-1 tvg-id="5151" tvg-name="Global Punjab TV" tvg-logo="https://a.jsrdn.com/hls/22994/global-punjab-tv/logo_20240604_233922_70.png" group-title="IAB12",Global Punjab TV
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/global-punjab-tv/4b1436e1-ccf7-4828-8b0c-afdd9b1d3de2/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/global-punjab-tv/index.m3u8
+#EXTINF:-1 tvg-id="5153" tvg-name="PLL Network" tvg-logo="https://a.jsrdn.com/hls/22964/pll-network/logo_20240626_231937_70.png" group-title="IAB17",PLL Network
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/pll-network/ce31e39d-cda6-4fe8-a26f-74570b1fa508/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/pll-network/pllne.m3u8
 #EXTINF:-1 tvg-id="5155" tvg-name="TRACE UK" tvg-logo="https://a.jsrdn.com/hls/23073/trace-uk/logo_20240627_183320_70.png" group-title="IAB1",TRACE UK
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/trace-uk/aaa54f4b-5313-40a8-a396-f6a47cba094d/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/trace-uk/encrypted.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/trace-uk/21dc9432-b031-450b-8a80-83be68738b37/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/trace-uk/encrypted.m3u8
 #EXTINF:-1 tvg-id="5157" tvg-name="Green Chillies TV- Zindagi ka Tadka!" tvg-logo="https://a.jsrdn.com/hls/23179/green-chillies-tv/logo_20240627_214400_70.png" group-title="IAB1",Green Chillies TV- Zindagi ka Tadka!
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/green-chillies-tv/e5bf260b-2a73-4824-9d79-5f0a518b82d7/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/green-chillies-tv/playlist.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/green-chillies-tv/d9c9e4b0-5119-4327-a206-13dca7e056ed/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/green-chillies-tv/playlist.m3u8
 #EXTINF:-1 tvg-id="5199" tvg-name="News Nation" tvg-logo="https://a.jsrdn.com/hls/23184/news-nation/logo_20240807_231558_70.png" group-title="IAB12",News Nation
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/news-nation/7112f16c-6bf2-4364-b774-261e55b10810/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/news-nation/master_nnna_distrotv.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/news-nation/7c52ccda-dee1-4e38-9db3-1d071158e469/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/news-nation/master_nnna_distrotv.m3u8
 #EXTINF:-1 tvg-id="5235" tvg-name="Punjabi Hits" tvg-logo="https://a.jsrdn.com/hls/23196/punjabi-hits/logo_20241010_204324_70.png" group-title="IAB1",Punjabi Hits
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/punjabi-hits/513eb7e0-48c0-4de3-a0ae-0f2a25a6a6aa/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/punjabi-hits/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/punjabi-hits/8eb9046c-6115-4320-87b4-f386199393bb/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/punjabi-hits/index.m3u8
 #EXTINF:-1 tvg-id="5236" tvg-name="CNA Originals" tvg-logo="https://a.jsrdn.com/hls/23200/cna-originals/logo_20250731_183340_70.png" group-title="IAB12",CNA Originals
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/cna-originals/6c57b940-1c46-487b-bfbf-697b64223761/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/cna-originals/playlist.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/cna-originals/dd16dc10-d2e3-4cfa-ae6b-33e9b2a83bcb/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/cna-originals/playlist.m3u8
 #EXTINF:-1 tvg-id="5241" tvg-name="Tabbar Hits" tvg-logo="https://a.jsrdn.com/hls/23196/tabbar-hits/logo_20241119_184505_70.png" group-title="IAB1",Tabbar Hits
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tabbar-hits/c48ffdf2-b8a8-4ef3-93a2-db4fd890661f/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tabbar-hits/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tabbar-hits/b043a744-2b1d-401b-a2d5-f16752cb71b1/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tabbar-hits/index.m3u8
 #EXTINF:-1 tvg-id="5254" tvg-name="Haryana Beat" tvg-logo="https://a.jsrdn.com/hls/22994/haryana-beat/logo_20241127_213000_70.png" group-title="IAB1",Haryana Beat
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/haryana-beat/69f42295-773a-45b7-aa2a-4f52bd28af3b/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/haryana-beat/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/haryana-beat/d5571026-b491-4c5d-98fe-3bb4e9d4c93a/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/haryana-beat/index.m3u8
 #EXTINF:-1 tvg-id="5255" tvg-name="Nakshatra Digital Tv" tvg-logo="https://a.jsrdn.com/hls/22994/nakshatra-digital-tv/logo_20241127_213756_70.png" group-title="IAB1",Nakshatra Digital Tv
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/nakshatra-digital-tv/104eb1a8-1342-4717-98d0-767285a70998/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/nakshatra-digital-tv/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/nakshatra-digital-tv/fbda68ee-0869-4c03-923d-20cb2a51fa1c/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/nakshatra-digital-tv/index.m3u8
 #EXTINF:-1 tvg-id="5256" tvg-name="Sudarshan News" tvg-logo="https://a.jsrdn.com/hls/22994/sudarshan-news/logo_20241127_215403_70.png" group-title="IAB12",Sudarshan News
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/sudarshan-news/35c7d8fb-5a3c-4c5c-b007-932bd414e9f5/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/sudarshan-news/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/sudarshan-news/0bf0058c-d0b9-493f-9183-e2ec811fedab/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/sudarshan-news/index.m3u8
 #EXTINF:-1 tvg-id="5257" tvg-name="Sundrani Tv" tvg-logo="https://a.jsrdn.com/hls/22994/sundrani-tv/logo_20241127_220100_70.png" group-title="IAB1",Sundrani Tv
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/sundrani-tv/2eee100a-61f3-49d1-9fe8-59e8ec5f10c3/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/sundrani-tv/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/sundrani-tv/0b9af81e-c96a-41a9-9d74-463406b9d9a0/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/sundrani-tv/index.m3u8
+#EXTINF:-1 tvg-id="5284" tvg-name="hi Drama!" tvg-logo="https://a.jsrdn.com/hls/23205/hi-drama/logo_20250127_184605_68.png" group-title="IAB1",hi Drama!
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/hi-drama/77bb881e-4437-49a0-98cf-4a1c488d1c36/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/hi-drama/distro-cgtn-hidrama.m3u8
+#EXTINF:-1 tvg-id="5285" tvg-name="hi Life!" tvg-logo="https://a.jsrdn.com/hls/23205/hi-life/logo_20250127_190513_68.png" group-title="IAB14",hi Life!
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/hi-life/3cf4e09e-f707-4f49-a3bf-b245e50f8d66/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/hi-life/distro-cgtn-hilife.m3u8
+#EXTINF:-1 tvg-id="5286" tvg-name="hi Vida!" tvg-logo="https://a.jsrdn.com/hls/23205/hi-vida/logo_20250127_192050_68.png" group-title="IAB1",hi Vida!
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/hi-vida/f83867d5-f873-4f1f-943b-5ed3796b88ad/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/hi-vida/distro-cgtn-hivida.m3u8
 #EXTINF:-1 tvg-id="5287" tvg-name="Living India News" tvg-logo="https://a.jsrdn.com/hls/23196/living-india-news/logo_20250205_001641_70.png" group-title="IAB12",Living India News
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/living-india-news/adba0ce6-c8fd-4311-a242-1c1991697cd5/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/living-india-news/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/living-india-news/2339b869-bdce-41d5-b52b-a6d6d765d55a/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/living-india-news/index.m3u8
 #EXTINF:-1 tvg-id="5294" tvg-name="OurVinyl" tvg-logo="https://a.jsrdn.com/hls/23208/ourvinyl/logo_20250211_203651_70.png" group-title="IAB1",OurVinyl
-https://d2bs6p84qq6krv.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-OurVinyl/ddc238cb-91fd-4144-a061-d2fd651b5c13/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-OurVinyl/459.m3u8
+https://d2bs6p84qq6krv.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-OurVinyl/9b663833-8a87-41e5-b745-3881bd6420c7/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-OurVinyl/459.m3u8
+#EXTINF:-1 tvg-id="5295" tvg-name="My Money" tvg-logo="https://a.jsrdn.com/hls/23208/my-money/logo_20250211_204246_70.png" group-title="IAB13",My Money
+https://dqaj8xog66lli.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-MyMoney/4297be7c-72db-40c4-bc89-23aba20cb4af/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-MyMoney/468.m3u8
 #EXTINF:-1 tvg-id="5296" tvg-name="Sports First TV" tvg-logo="https://a.jsrdn.com/hls/23208/sports-first-tv/logo_20250211_205731_70.png" group-title="IAB17",Sports First TV
-https://d2396zb8liu8hs.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-SportsFirstTV/6621aa94-7beb-43f2-a8b5-15cdd3d693eb/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-SportsFirstTV/409.m3u8
+https://d2396zb8liu8hs.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-SportsFirstTV/43fe07b1-8c2d-425d-a4d2-6780e8c051ae/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-SportsFirstTV/409.m3u8
 #EXTINF:-1 tvg-id="5303" tvg-name="Cigar TV" tvg-logo="https://a.jsrdn.com/hls/23212/cigar-tv/logo_20250318_223344_70.png" group-title="IAB9",Cigar TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/cigar-tv/f95a5d2a-c1e6-47e6-a20f-d3e5e387c184/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/cigar-tv/amgplt0081.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/cigar-tv/f363f6d2-1246-4e08-a171-cf0b4e1139a7/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/cigar-tv/amgplt0081.m3u8
 #EXTINF:-1 tvg-id="5305" tvg-name="Aaj Ki Khabar" tvg-logo="https://a.jsrdn.com/hls/23215/aaj-ki-khabar/logo_20250401_175431_70.png" group-title="IAB12",Aaj Ki Khabar
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/aaj-ki-khabar/a91b5818-821c-451a-b559-441d654754c5/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/aaj-ki-khabar/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/aaj-ki-khabar/c799108f-5920-4ee5-9e89-1198144f1768/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/aaj-ki-khabar/index.m3u8
 #EXTINF:-1 tvg-id="5306" tvg-name="Atmadarshan Tv" tvg-logo="https://a.jsrdn.com/hls/23215/atmadarshan-tv/logo_20250401_181523_70.png" group-title="IAB23",Atmadarshan Tv
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/atmadarshan-tv/80b6b96a-f681-4c7a-ab47-dbb88516c4c2/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/atmadarshan-tv/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/atmadarshan-tv/72ee0fbe-b9ed-4ac5-9fd8-052e4e798d9f/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/atmadarshan-tv/index.m3u8
 #EXTINF:-1 tvg-id="5308" tvg-name="Tara Tv" tvg-logo="https://a.jsrdn.com/hls/23215/tara-tv/logo_20250401_184429_70.png" group-title="IAB1",Tara Tv
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tara-tv/28c8231d-af8d-4a0f-811c-6aa0cffbcf6a/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tara-tv/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tara-tv/18f892fa-7bf6-4437-8e8c-4e7f4949f194/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tara-tv/index.m3u8
 #EXTINF:-1 tvg-id="5309" tvg-name="The Unmute" tvg-logo="https://a.jsrdn.com/hls/23215/the-unmute/logo_20250401_185248_70.png" group-title="IAB12",The Unmute
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/the-unmute/6dc03441-b321-418a-9af2-f520b019e33b/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/the-unmute/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/the-unmute/4a3b2487-37f1-4163-a45f-97ec62bc305d/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/the-unmute/index.m3u8
 #EXTINF:-1 tvg-id="5311" tvg-name="Wild Nature" tvg-logo="https://a.jsrdn.com/hls/23208/wild-nature/logo_20250401_214215_70.png" group-title="IAB20",Wild Nature
-https://d3vqzhzmvqrbon.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV2-MuxIP-WildNature/d5a2d2f5-d34a-4d39-94e2-20f3528bcad1/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV2-MuxIP-WildNature/491.m3u8
+https://d3vqzhzmvqrbon.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV2-MuxIP-WildNature/2af553ba-293b-40ca-ac9e-d5692113ebb6/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV2-MuxIP-WildNature/491.m3u8
 #EXTINF:-1 tvg-id="5312" tvg-name="Wild TV" tvg-logo="https://a.jsrdn.com/hls/23208/wild-tv/logo_20250401_215043_70.png" group-title="IAB9",Wild TV
-https://d3p2bckoqrp179.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV2-MuxIP-WildTV/feef6a18-916b-444e-a65e-4ce58d4ef04b/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV2-MuxIP-WildTV/476.m3u8
+https://d3p2bckoqrp179.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV2-MuxIP-WildTV/30dadd9a-6d67-4be5-bd9d-329fb83a15d6/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV2-MuxIP-WildTV/476.m3u8
 #EXTINF:-1 tvg-id="5316" tvg-name="Vande Bharat News" tvg-logo="https://a.jsrdn.com/hls/23215/vande-bharat-news/logo_20250429_224300_68.png" group-title="IAB12",Vande Bharat News
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/vande-bharat-news/626f0a10-2110-4f11-a751-43291da00862/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/vande-bharat-news/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/vande-bharat-news/ea308c33-5047-4754-8ec7-1a8782551ede/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/vande-bharat-news/index.m3u8
 #EXTINF:-1 tvg-id="5317" tvg-name="KTV Bangla" tvg-logo="https://a.jsrdn.com/hls/23215/ktv-bangla/logo_20251030_205317_70.png" group-title="IAB1",KTV Bangla
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tribe-tv/93ad838a-df2b-41d1-b13b-5b36a5c588d4/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tribe-tv/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tribe-tv/654d4f82-d007-4066-a795-11ff3ab0eacc/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tribe-tv/index.m3u8
 #EXTINF:-1 tvg-id="5318" tvg-name="Ann Channel" tvg-logo="https://a.jsrdn.com/hls/23215/ann-channel/logo_20250429_232010_70.png" group-title="IAB1",Ann Channel
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/ann-channel/01931522-260a-4bee-ae73-68cfc3e0eaa2/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/ann-channel/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/ann-channel/fd30aad5-9922-4832-aee2-4841b625584f/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/ann-channel/index.m3u8
 #EXTINF:-1 tvg-id="5319" tvg-name="Indian News" tvg-logo="https://a.jsrdn.com/hls/23215/indian-news/logo_20251112_192835_70.png" group-title="IAB12",Indian News
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/news-flash/0370ba4d-fe7d-49df-bb4b-1efb213618f7/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/news-flash/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/news-flash/ec64b04d-7455-427c-9645-c291e82a2afa/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/news-flash/index.m3u8
 #EXTINF:-1 tvg-id="5321" tvg-name="Mahua Play" tvg-logo="https://a.jsrdn.com/hls/23215/mahua-play/logo_20250429_233701_70.png" group-title="IAB1",Mahua Play
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mahua-play/9adafe9a-b22d-4a5c-a16c-d04b26a43dff/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mahua-play/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mahua-play/25a39587-1b5e-413a-b813-dc48b77a028d/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mahua-play/index.m3u8
 #EXTINF:-1 tvg-id="5322" tvg-name="Mahua Khabar" tvg-logo="https://a.jsrdn.com/hls/23215/mahua-khabar/logo_20250429_234028_70.png" group-title="IAB12",Mahua Khabar
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mahua-khabar/9c6a0ca2-cdec-440c-bc48-efb932b4d82d/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mahua-khabar/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mahua-khabar/9b0b4bff-84f6-47c2-8a66-019ded22916f/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mahua-khabar/index.m3u8
 #EXTINF:-1 tvg-id="5327" tvg-name="Anand Tv" tvg-logo="https://a.jsrdn.com/hls/23215/anand-tv/logo_20250611_202131_70.png" group-title="IAB23",Anand Tv
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/anand-tv/7c27f7b0-6ed0-4bdc-b6d6-6359c33cf5f4/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/anand-tv/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/anand-tv/3d84db0d-6048-4ba2-acb6-fea3a43a9acf/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/anand-tv/index.m3u8
 #EXTINF:-1 tvg-id="5328" tvg-name="Bharat 24" tvg-logo="https://a.jsrdn.com/hls/23215/bharat-24/logo_20250611_203139_70.png" group-title="IAB12",Bharat 24
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bharat-24/4f357a45-4858-4d47-b97c-25d3a4055a96/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bharat-24/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bharat-24/2f6b0cce-345a-4858-9f4a-8aa3f2120fb8/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bharat-24/index.m3u8
 #EXTINF:-1 tvg-id="5329" tvg-name="Mahaa Max" tvg-logo="https://a.jsrdn.com/hls/23215/mahaa-max/logo_20250611_203843_68.png" group-title="IAB1",Mahaa Max
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mahaa-max/736b444e-2b49-4485-8349-26f5226fddcf/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mahaa-max/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mahaa-max/866567f2-7227-410f-ab38-1f8848d5d999/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mahaa-max/index.m3u8
 #EXTINF:-1 tvg-id="5330" tvg-name="Mahaa News" tvg-logo="https://a.jsrdn.com/hls/23215/mahaa-news/logo_20250611_204304_68.png" group-title="IAB12",Mahaa News
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mahaa-news/d028507b-2d10-4edc-84d7-bbb7806370b9/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mahaa-news/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mahaa-news/6dbb6c1f-d048-4a23-a0ac-b72627c0be33/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mahaa-news/index.m3u8
 #EXTINF:-1 tvg-id="5331" tvg-name="Munsif Tv" tvg-logo="https://a.jsrdn.com/hls/23215/munsif-tv/logo_20250611_205016_68.png" group-title="IAB12",Munsif Tv
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/munsif-tv/e43e8edf-a1d7-46b5-a2a3-6d1c6285498b/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/munsif-tv/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/munsif-tv/bffb9087-f1a8-453d-afc8-11dcecd56a13/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/munsif-tv/index.m3u8
 #EXTINF:-1 tvg-id="5333" tvg-name="News Marathi 24X7" tvg-logo="https://a.jsrdn.com/hls/23215/news-marathi-24x7/logo_20250611_210319_70.png" group-title="IAB12",News Marathi 24X7
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/news-marathi-24x7/fb3c8ce5-d533-484f-9205-f8ba8b9b6e3e/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/news-marathi-24x7/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/news-marathi-24x7/cb61227f-cf2f-4931-a1d8-f527a309baab/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/news-marathi-24x7/index.m3u8
 #EXTINF:-1 tvg-id="5334" tvg-name="Rongeen Tv" tvg-logo="https://a.jsrdn.com/hls/23215/rongeen-tv/logo_20250611_210748_68.png" group-title="IAB1",Rongeen Tv
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/rongeen-tv/43fe357a-9820-4015-a7f7-0ebf998e662d/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/rongeen-tv/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/rongeen-tv/3c296b27-2905-4abe-a7a2-5cb66b893849/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/rongeen-tv/index.m3u8
 #EXTINF:-1 tvg-id="5335" tvg-name="Rozana Spokesman" tvg-logo="https://a.jsrdn.com/hls/23215/rozana-spokesman/logo_20250611_211157_70.png" group-title="IAB12",Rozana Spokesman
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/rozana-spokesman/0ec21f19-5413-48e3-bcfe-f936a278d2fc/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/rozana-spokesman/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/rozana-spokesman/53680253-3f60-4583-98a2-09e136523084/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/rozana-spokesman/index.m3u8
 #EXTINF:-1 tvg-id="5336" tvg-name="Prameya News7" tvg-logo="https://a.jsrdn.com/hls/23215/prameya-news7/logo_20250614_211231_70.png" group-title="IAB12",Prameya News7
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/prameya-news7/8dae53f0-0917-48ed-81c8-71105d2836f0/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/prameya-news7/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/prameya-news7/d76f6f22-fbf3-4b6e-aa6f-148d442a0fb4/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/prameya-news7/index.m3u8
 #EXTINF:-1 tvg-id="5339" tvg-name="UnchainedTV" tvg-logo="https://a.jsrdn.com/hls/23064/unchainedtv/logo_20250617_212400_70.png" group-title="IAB8",UnchainedTV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/unchainedtv/aa1abd6e-29e4-41ec-a041-bdffdd3608ae/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/unchainedtv/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/unchainedtv/af8f9276-d274-49f6-9fd8-0193bf36baa6/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/unchainedtv/master.m3u8
 #EXTINF:-1 tvg-id="5340" tvg-name="POWERtube TV" tvg-logo="https://a.jsrdn.com/hls/23064/powertube-tv/logo_20250617_213124_70.png" group-title="IAB2",POWERtube TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/powertube-tv/cd17bc08-05bb-49b3-b1b8-5f9637a2dccf/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/powertube-tv/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/powertube-tv/b4476f5c-4325-4e35-a73f-719820eacd65/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/powertube-tv/master.m3u8
+#EXTINF:-1 tvg-id="5341" tvg-name="Screams TV by Trinian" tvg-logo="https://a.jsrdn.com/hls/23064/screams-tv-by-trinian/logo_20250617_213711_70.png" group-title="IAB1",Screams TV by Trinian
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/screams-tv-by-trinian/9d9664f1-2e27-4cdf-ae01-78bcecd3ee48/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/screams-tv-by-trinian/manifest.m3u8
+#EXTINF:-1 tvg-id="5342" tvg-name="Gritos TV by Trinian" tvg-logo="https://a.jsrdn.com/hls/23064/gritos-tv-by-trinian/logo_20250617_214111_70.png" group-title="IAB1",Gritos TV by Trinian
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/gritos-tv-by-trinian/d703af25-1b09-4563-b774-bd44fe9787a3/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/gritos-tv-by-trinian/manifest.m3u8
 #EXTINF:-1 tvg-id="5343" tvg-name="Mi Raza Canal" tvg-logo="https://a.jsrdn.com/hls/23064/mi-raza-canal/logo_20250617_214629_70.png" group-title="IAB1",Mi Raza Canal
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mi-raza-canal/8c47cdd0-14c4-414e-922e-8d9a2861ed29/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mi-raza-canal/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mi-raza-canal/260022d2-5fa8-47ee-805c-16efd414fc3c/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mi-raza-canal/master.m3u8
 #EXTINF:-1 tvg-id="5344" tvg-name="Mi Raza Canal Plus" tvg-logo="https://a.jsrdn.com/hls/23064/mi-raza-canal-plus/logo_20250617_215110_70.png" group-title="IAB1",Mi Raza Canal Plus
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mi-raza-canal-plus/99a2ae84-9303-43b8-a133-d8f2336187ec/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mi-raza-canal-plus/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mi-raza-canal-plus/10f53c09-0a4e-44f8-b4d9-afbd340e38a0/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mi-raza-canal-plus/manifest.m3u8
 #EXTINF:-1 tvg-id="5345" tvg-name="Mi Miedo Canal" tvg-logo="https://a.jsrdn.com/hls/23064/mi-miedo-canal/logo_20250617_215415_70.png" group-title="IAB1",Mi Miedo Canal
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mi-miedo-canal/a2963c06-fa81-4592-828a-910007d789d4/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mi-miedo-canal/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/mi-miedo-canal/769ac3ce-b805-4fe5-afe4-207b2666187e/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/mi-miedo-canal/manifest.m3u8
 #EXTINF:-1 tvg-id="5346" tvg-name="India Daily 24x7" tvg-logo="https://a.jsrdn.com/hls/23225/india-daily-24x7/logo_20250618_171159_70.png" group-title="IAB12",India Daily 24x7
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/india-daily-24x7/8720d59c-2746-46a3-8bc1-ec83c1e6484e/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/india-daily-24x7/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/india-daily-24x7/5668a8f5-2704-4a21-95ce-e645fbaa5982/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/india-daily-24x7/index.m3u8
 #EXTINF:-1 tvg-id="5347" tvg-name="Elevation Church Network" tvg-logo="https://a.jsrdn.com/hls/23224/elevation-church-network/logo_20250623_165558_70.png" group-title="IAB23",Elevation Church Network
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/elevation-church-network/5c3bbf3a-9d25-446c-b0e7-dbc897c7599c/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/elevation-church-network/playlist.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/elevation-church-network/346b976a-ff23-4ebc-a0a9-f05dd9c2edc8/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/elevation-church-network/playlist.m3u8
 #EXTINF:-1 tvg-id="5348" tvg-name="News Tamil 24x7" tvg-logo="https://a.jsrdn.com/hls/23215/news-tamil-24x7/logo_20250710_175602_68.png" group-title="IAB12",News Tamil 24x7
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/news-tamil-24x7/2d1452b7-2392-4ea6-a781-00ea5964a28f/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/news-tamil-24x7/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/news-tamil-24x7/de44ea4f-901b-4558-a87a-7834b25f55d1/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/news-tamil-24x7/index.m3u8
 #EXTINF:-1 tvg-id="5349" tvg-name="News Malayalam 24x7" tvg-logo="https://a.jsrdn.com/hls/23215/news-malayalam-24x7/logo_20250710_180603_68.png" group-title="IAB12",News Malayalam 24x7
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/news-malayalam-24x7/4c8685df-8e0a-44ad-8f4e-b1d22a33fd95/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/news-malayalam-24x7/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/news-malayalam-24x7/f054fd81-c636-4480-8b14-be60cddbd376/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/news-malayalam-24x7/index.m3u8
 #EXTINF:-1 tvg-id="5350" tvg-name="World Punjabi Tv" tvg-logo="https://a.jsrdn.com/hls/23215/world-punjabi-tv/logo_20250813_195456_68.png" group-title="IAB12",World Punjabi Tv
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/world-punjabi-tv/26481a83-ccb8-45a2-8616-23e70149db9a/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/world-punjabi-tv/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/world-punjabi-tv/02813293-0513-47f3-bb6d-33a4cca5c3ab/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/world-punjabi-tv/index.m3u8
 #EXTINF:-1 tvg-id="5351" tvg-name="Top News Marathi" tvg-logo="https://a.jsrdn.com/hls/23215/top-news-marathi/logo_20250813_200205_70.png" group-title="IAB12",Top News Marathi
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/top-news-marathi/276f752e-dd16-476b-af5e-ae251338eec1/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/top-news-marathi/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/top-news-marathi/362f008e-5640-47b5-b6d4-875b38a2e492/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/top-news-marathi/index.m3u8
 #EXTINF:-1 tvg-id="5352" tvg-name="Pratham Khabar 24x7" tvg-logo="https://a.jsrdn.com/hls/23215/pratham-khabar-24x7/logo_20250813_201110_68.png" group-title="IAB12",Pratham Khabar 24x7
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/pratham-khabar-24x7/f3d47a2e-6382-4e09-a1be-3368f6df62d9/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/pratham-khabar-24x7/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/pratham-khabar-24x7/6f6b2c52-ed7d-4b28-8a89-f0e0f414b85f/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/pratham-khabar-24x7/index.m3u8
 #EXTINF:-1 tvg-id="5358" tvg-name="Crime & Evidence" tvg-logo="https://a.jsrdn.com/hls/23181/crime-and-evidence/logo_20250818_194230_68.png" group-title="IAB1",Crime & Evidence
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/crime-and-evidence/cc282ef5-cd7a-4e42-bbd3-9e168c530901/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/crime-and-evidence/video.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/crime-and-evidence/882c66df-6bb4-455c-acec-2ac080912d79/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/crime-and-evidence/video.m3u8
 #EXTINF:-1 tvg-id="5359" tvg-name="Novo Comedy" tvg-logo="https://a.jsrdn.com/hls/23181/novo-comedy/logo_20250818_195239_70.png" group-title="IAB1",Novo Comedy
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/novo-comedy/8a1c473c-10d6-4d17-bcb7-3f91485245e8/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/novo-comedy/video.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/novo-comedy/abfdd646-70a9-4ab9-9575-90cf60d6781c/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/novo-comedy/video.m3u8
 #EXTINF:-1 tvg-id="5360" tvg-name="Kolkata Tv" tvg-logo="https://a.jsrdn.com/hls/23215/kolkata-tv/logo_20250819_185012_70.png" group-title="IAB12",Kolkata Tv
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/kolkata-tv/63b5915c-7c95-4c47-ba9f-75ac14520d16/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/kolkata-tv/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/kolkata-tv/644e5bd5-d662-467a-8365-f360d7a27095/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/kolkata-tv/index.m3u8
 #EXTINF:-1 tvg-id="5361" tvg-name="P18 News" tvg-logo="https://a.jsrdn.com/hls/23215/p18-news/logo_20250819_191658_70.png" group-title="IAB12",P18 News
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/p18-news/262ddec0-3ef0-4889-b35d-02b518fda4f7/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/p18-news/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/p18-news/5daeec30-25ce-4156-8859-b20cd2e2c33b/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/p18-news/index.m3u8
 #EXTINF:-1 tvg-id="5362" tvg-name="Big Tv" tvg-logo="https://a.jsrdn.com/hls/23215/big-tv/logo_20250911_175211_70.png" group-title="IAB12",Big Tv
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/big-tv/2da50ae7-d3fa-4db7-ace1-5afff723b548/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/big-tv/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/big-tv/3159efbb-95be-438e-bbff-2865d5550df8/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/big-tv/index.m3u8
 #EXTINF:-1 tvg-id="5363" tvg-name="ABN Andhra Jyothy" tvg-logo="https://a.jsrdn.com/hls/23215/abn-andhra-jyothy/logo_20250911_180032_70.png" group-title="IAB12",ABN Andhra Jyothy
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/abn-andhra-jyothy/c3345e2d-0296-4f08-800a-7e203ce1349e/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/abn-andhra-jyothy/index.m3u8
-#EXTINF:-1 tvg-id="5364" tvg-name="Outdoor Channel" tvg-logo="https://a.jsrdn.com/hls/23208/outdoor-channel/logo_20250911_181607_70.png" group-title="IAB1",Outdoor Channel
-https://d3ehdya3kqqd52.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-OutdoorChannelV2/5e1b9f4b-bb01-4ac5-9b43-93ff4a357410/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-OutdoorChannelV2/455.m3u8
-#EXTINF:-1 tvg-id="5365" tvg-name="WFN: World Fishing Network" tvg-logo="https://a.jsrdn.com/hls/23208/wfn-world-fishing-network/logo_20250911_182344_70.png" group-title="IAB9",WFN: World Fishing Network
-https://d3b3ldcvgsu291.cloudfront.net/v1/manifest/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-WFN/4474b003-b427-4d99-a1c1-58d54b069fd7/0.m3u89d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-WFN/477.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/abn-andhra-jyothy/a5aa9086-96bc-48b7-baea-647d314996da/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/abn-andhra-jyothy/index.m3u8
 #EXTINF:-1 tvg-id="5367" tvg-name="Sana Tv" tvg-logo="https://a.jsrdn.com/hls/23215/sana-tv/logo_20251009_220955_68.png" group-title="IAB1",Sana Tv
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/sana-tv/646d3fc2-eea0-43bc-a976-eb3a83e05be0/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/sana-tv/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/sana-tv/4ffafb25-47d8-42ee-8513-7f29b82c6d9f/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/sana-tv/index.m3u8
 #EXTINF:-1 tvg-id="5368" tvg-name="Janataa TV Kannada" tvg-logo="https://a.jsrdn.com/hls/23215/janataa-tv-kannada/logo_20251009_221851_68.png" group-title="IAB12",Janataa TV Kannada
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/janataa-tv-kannada/4d76e8d5-d7b8-4abc-80e9-42dc30c90635/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/janataa-tv-kannada/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/janataa-tv-kannada/a0be420d-4dcd-4d6c-a9a8-1c7423124537/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/janataa-tv-kannada/index.m3u8
 #EXTINF:-1 tvg-id="5369" tvg-name="DA News Plus" tvg-logo="https://a.jsrdn.com/hls/23215/da-news-plus/logo_20251009_222532_70.png" group-title="IAB12",DA News Plus
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/da-news-plus/b7ac2765-1b07-4ac6-bf35-8a4c9002ea9f/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/da-news-plus/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/da-news-plus/b7b16457-894f-42b1-a2c7-57e64e3db57e/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/da-news-plus/index.m3u8
 #EXTINF:-1 tvg-id="5370" tvg-name="Sandesh News" tvg-logo="https://a.jsrdn.com/hls/23233/sandesh-news/logo_20251028_214640_70.png" group-title="IAB12",Sandesh News
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/sandesh-news/333c26af-dc3c-4881-922d-2ddae252680a/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/sandesh-news/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/sandesh-news/e4466d71-fb66-44be-a84e-e59f9a32f582/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/sandesh-news/index.m3u8
 #EXTINF:-1 tvg-id="5371" tvg-name="Gujarat First" tvg-logo="https://a.jsrdn.com/hls/23215/gujarat-first/logo_20251028_215133_68.png" group-title="IAB12",Gujarat First
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/gujarat-first/49e29d16-bf74-452a-9b13-85539216ff36/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/gujarat-first/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/gujarat-first/57167e93-0335-4c67-8b1c-2d91951fc73a/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/gujarat-first/index.m3u8
 #EXTINF:-1 tvg-id="5372" tvg-name="35MM" tvg-logo="https://a.jsrdn.com/hls/23215/35mm/logo_20251028_215600_70.png" group-title="IAB23",35MM
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/35mm/04e9db17-52db-4ec8-a08e-207fa17552bf/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/35mm/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/35mm/ea9b73f6-6ab2-4aad-b108-41e38713fb96/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/35mm/index.m3u8
 #EXTINF:-1 tvg-id="5373" tvg-name="Sakshi Tv" tvg-logo="https://a.jsrdn.com/hls/23234/sakshi-tv/logo_20251029_121718_70.png" group-title="IAB12",Sakshi Tv
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/sakshi-tv/38afc58b-1842-4cea-8b53-5ae1d6ac0f85/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/sakshi-tv/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/sakshi-tv/3de70cf1-6674-48ac-8629-b2ef9cac8a11/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/sakshi-tv/index.m3u8
 #EXTINF:-1 tvg-id="5378" tvg-name="Prime Asia Tv" tvg-logo="https://a.jsrdn.com/hls/23215/prime-asia-tv/logo_20251125_201232_70.png" group-title="IAB12",Prime Asia Tv
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/prime-asia-tv/541f29d4-1422-45be-8f27-38154e85a7b7/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/prime-asia-tv/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/prime-asia-tv/9dae31d4-dd6e-41b2-85ec-9a520889cae9/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/prime-asia-tv/index.m3u8
 #EXTINF:-1 tvg-id="5381" tvg-name="Bowling TV" tvg-logo="https://a.jsrdn.com/hls/22964/bowling-tv/logo_20260129_214128_70.png" group-title="IAB17",Bowling TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bowling-tv/4b673ee7-1ad5-4a47-b0b6-1d5d632c6da7/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bowling-tv/bowl.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bowling-tv/f3fc3971-d31f-4587-b085-3049a8a144d5/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bowling-tv/bowl.m3u8
 #EXTINF:-1 tvg-id="5382" tvg-name="CTVN AKD Plus" tvg-logo="https://a.jsrdn.com/hls/23215/ctvn-akd-plus/logo_20251212_223640_70.png" group-title="IAB1",CTVN AKD Plus
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/ctvn-akd-plus/43f23054-b623-4138-bb02-f736cb783176/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/ctvn-akd-plus/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/ctvn-akd-plus/ade2dcac-f43b-454f-97a6-f93580574827/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/ctvn-akd-plus/index.m3u8
 #EXTINF:-1 tvg-id="5383" tvg-name="CN News" tvg-logo="https://a.jsrdn.com/hls/23215/cn-news/logo_20251212_224056_70.png" group-title="IAB12",CN News
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/cn-news/c22cba26-11f7-48ab-8fed-cfa7c480b083/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/cn-news/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/cn-news/094bf7c2-f903-45fc-a2c5-df80e58f70ee/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/cn-news/index.m3u8
 #EXTINF:-1 tvg-id="5384" tvg-name="RVTV" tvg-logo="https://a.jsrdn.com/hls/23241/rvtv/logo_20251217_201036_68.png" group-title="IAB2",RVTV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/rvtv/9b9b5847-ed22-4c9f-beed-ea91e432953e/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/rvtv/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/rvtv/e070beea-b87d-40ec-b7b3-b5e867d0fad0/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/rvtv/index.m3u8
 #EXTINF:-1 tvg-id="5385" tvg-name="Wine Watches & Whiskey" tvg-logo="https://a.jsrdn.com/hls/23241/wine-watches-whiskey/logo_20251217_201432_68.png" group-title="IAB9",Wine Watches & Whiskey
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/wine-watches-whiskey/d9570292-650e-441e-85b3-f221c541629a/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/wine-watches-whiskey/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/wine-watches-whiskey/b0b2655a-d9b2-4bbc-ac3c-1e290077e3a6/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/wine-watches-whiskey/index.m3u8
 #EXTINF:-1 tvg-id="5387" tvg-name="Pickleball Now" tvg-logo="https://a.jsrdn.com/hls/22979/pickleball-now/logo_20260106_185156_70.png" group-title="IAB17",Pickleball Now
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/pickleball-now/5230fc33-a283-444a-b41d-ac62ed110832/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/pickleball-now/playlist.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/pickleball-now/422b30d1-c459-48b0-a46f-5e4ed6250feb/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/pickleball-now/playlist.m3u8
+#EXTINF:-1 tvg-id="5388" tvg-name="PTC Punjabi Canada" tvg-logo="https://a.jsrdn.com/hls/23215/ptc-punjabi-canada/logo_20260113_224655_70.png" group-title="IAB1",PTC Punjabi Canada
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/ptc-punjabi-canada/a7ddd3a0-e5ba-455b-89fc-5831bf32d13c/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/ptc-punjabi-canada/index.m3u8
 #EXTINF:-1 tvg-id="5389" tvg-name="Amar Ujala" tvg-logo="https://a.jsrdn.com/hls/23249/amar-ujala/logo_20260115_224430_70.png" group-title="IAB12",Amar Ujala
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/amar-ujala/424b493f-d1eb-49df-9d63-bcfa8aa1ccc2/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/amar-ujala/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/amar-ujala/382eb5cf-a17a-479d-a4a8-2a04e356e9ef/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/amar-ujala/index.m3u8
 #EXTINF:-1 tvg-id="5391" tvg-name="GTC Punjabi" tvg-logo="https://a.jsrdn.com/hls/23215/gtc-punjabi/logo_20260122_221155_70.png" group-title="IAB1",GTC Punjabi
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/gtc-punjabi/5524dc14-1a41-40f4-94fd-b3db160ba4d7/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/gtc-punjabi/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/gtc-punjabi/8810f61d-411b-48d8-bb85-7aadd6b81ea2/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/gtc-punjabi/index.m3u8
 #EXTINF:-1 tvg-id="5392" tvg-name="Punjabi Shorts" tvg-logo="https://a.jsrdn.com/hls/23215/punjabi-shorts/logo_20260122_222121_70.png" group-title="IAB1",Punjabi Shorts
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/punjabi-shorts/d1f03e3f-3657-43c0-a574-090742ccb4b2/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/punjabi-shorts/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/punjabi-shorts/6531df4d-d6b8-48d9-88d0-de927ecc7d07/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/punjabi-shorts/index.m3u8
 #EXTINF:-1 tvg-id="5397" tvg-name="Golf Network" tvg-logo="https://a.jsrdn.com/hls/23064/golf-network/logo_20260203_224133_68.png" group-title="IAB17",Golf Network
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/golf-network/e1d0c37c-2fad-43ae-aabc-16469e3dabbf/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/golf-network/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/golf-network/f2c551f2-8ad6-40d0-b750-ff46ccd206b6/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/golf-network/manifest.m3u8
 #EXTINF:-1 tvg-id="5398" tvg-name="Foosball TV" tvg-logo="https://a.jsrdn.com/hls/23064/foosball-tv/logo_20260203_224826_68.png" group-title="IAB9",Foosball TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/foosball-tv/e620961c-cfc1-4723-9d1e-4e05e360546d/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/foosball-tv/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/foosball-tv/2d56b021-0da1-4fb1-9159-88a742050c0f/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/foosball-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="5399" tvg-name="Bharat Express" tvg-logo="https://a.jsrdn.com/hls/23215/bharat-express/logo_20260203_230506_70.png" group-title="IAB12",Bharat Express
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bharat-express/e39fbc99-d44a-4418-b114-df7b544d26aa/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bharat-express/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bharat-express/7bb51f6d-a494-4b26-b07d-d4d72c6bad11/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bharat-express/index.m3u8
 #EXTINF:-1 tvg-id="5400" tvg-name="Argus News" tvg-logo="https://a.jsrdn.com/hls/23215/argus-news/logo_20260203_231211_70.png" group-title="IAB12",Argus News
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/argus-news/bdc80e72-8ff9-4073-95b4-d659f25f6055/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/argus-news/index.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/argus-news/4a3952c1-cfc5-4f27-8e39-97b490d876b6/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/argus-news/index.m3u8
 #EXTINF:-1 tvg-id="5438" tvg-name="CUISINE CULTURE" tvg-logo="https://a.jsrdn.com/hls/23064/cuisine-culture/logo_20260217_234602_68.jpg" group-title="IAB8",CUISINE CULTURE
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/cuisine-culture/9e3f8fb4-1804-422d-93ad-5ef7477d9c81/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/cuisine-culture/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/cuisine-culture/37c049b6-04fe-473f-b3cb-4ff4cb2cd7dd/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/cuisine-culture/manifest.m3u8
 #EXTINF:-1 tvg-id="5439" tvg-name="Trufa" tvg-logo="https://a.jsrdn.com/hls/23064/trufa/logo_20260217_235001_68.png" group-title="IAB8",Trufa
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/trufa/a094d4c2-06a2-4848-94ed-28f5a12c0bbf/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/trufa/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/trufa/97e69ad7-9b2a-4de3-bada-39acbf0ee00a/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/trufa/manifest.m3u8
 #EXTINF:-1 tvg-id="5440" tvg-name="Wai Lana" tvg-logo="https://a.jsrdn.com/hls/23064/wai-lana/logo_20260217_235345_68.png" group-title="IAB7",Wai Lana
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/wai-lana/93041566-adee-49e3-8052-58290df6de3a/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/wai-lana/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/wai-lana/7686671a-b9e1-489f-863c-5010c80994c3/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/wai-lana/manifest.m3u8
 #EXTINF:-1 tvg-id="5441" tvg-name="BOLLYWOOD 4U" tvg-logo="https://a.jsrdn.com/hls/23064/bollywood-4u/logo_20260310_212919_68.png" group-title="IAB1",BOLLYWOOD 4U
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-4u/3a74b34a-fa89-494b-b4d0-b4033a1312fd/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-4u/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-4u/b331c41d-d620-4176-8a06-f8be267429ad/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-4u/manifest.m3u8
 #EXTINF:-1 tvg-id="5442" tvg-name="BOLLYWOOD TV" tvg-logo="https://a.jsrdn.com/hls/23064/bollywood-tv/logo_20260310_213535_68.png" group-title="IAB1",BOLLYWOOD TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-tv/b0e74167-e4ad-427a-adbf-8109b720d4a5/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-tv/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-tv/95a7cedb-1e0c-4715-9c42-a9f16c8b78d0/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="5445" tvg-name="HUNT FISH TV" tvg-logo="https://a.jsrdn.com/hls/23064/hunt-fish-tv/logo_20260317_202531_68.png" group-title="IAB17",HUNT FISH TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/hunt-fish-tv/82fe6b9d-05dc-445a-9b5e-bea159a466ea/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/hunt-fish-tv/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/hunt-fish-tv/fd95b974-011d-474d-b22a-4d0c1d55b7b4/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/hunt-fish-tv/master.m3u8
 #EXTINF:-1 tvg-id="5447" tvg-name="SPORT FISHING TV" tvg-logo="https://a.jsrdn.com/hls/23064/sport-fishing-tv/logo_20260317_204009_68.png" group-title="IAB17",SPORT FISHING TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/sport-fishing-tv/61451da4-794c-43b3-a1b5-556d4d8b6307/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/sport-fishing-tv/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/sport-fishing-tv/e4bc3580-a3f4-40fc-81d0-cac8498c3193/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/sport-fishing-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="5448" tvg-name="Absinthe TV" tvg-logo="https://a.jsrdn.com/hls/23064/absinthe-tv/logo_20260324_011120_68.png" group-title="IAB17",Absinthe TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/absinthe-tv/34bc5c9d-f9ab-479e-82e0-1ae84a9d6c02/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/absinthe-tv/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/absinthe-tv/acd033a8-5a86-476c-8c8f-f362978bd92e/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/absinthe-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="5449" tvg-name="AMERICA'S BOATING CHANNEL" tvg-logo="https://a.jsrdn.com/hls/23064/americas-boating-channel/logo_20260324_011816_68.png" group-title="IAB2",AMERICA'S BOATING CHANNEL
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/americas-boating-channel/594cfb98-8b7a-487a-9afe-c5975a4f8390/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/americas-boating-channel/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/americas-boating-channel/65b1780b-b0cf-4775-9eeb-d19581387250/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/americas-boating-channel/manifest.m3u8
 #EXTINF:-1 tvg-id="5450" tvg-name="CHRONO TV" tvg-logo="https://a.jsrdn.com/hls/23064/chrono-tv/logo_20260324_012150_68.png" group-title="IAB17",CHRONO TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/chrono-tv/bb8bac2a-50e5-4c7c-9d6c-76c3b1ee82e1/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/chrono-tv/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/chrono-tv/05459267-d3f5-4ff7-b795-ccfd12e781b9/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/chrono-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="5451" tvg-name="DRIVE + SPEED" tvg-logo="https://a.jsrdn.com/hls/22626/drive-plus-speed/logo_20260324_012751_68.jpg" group-title="IAB17",DRIVE + SPEED
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/drive-plus-speed/2ab6a780-f3c1-4e75-adbb-de2718192af3/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/drive-plus-speed/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/drive-plus-speed/e773b063-3e85-4563-8566-a7a8288a2c20/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/drive-plus-speed/manifest.m3u8
 #EXTINF:-1 tvg-id="5452" tvg-name="FIGHT TV" tvg-logo="https://a.jsrdn.com/hls/23064/fight-tv/logo_20260324_013251_68.png" group-title="IAB17",FIGHT TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/fight-tv/17845b90-3e9d-409c-b817-6044a47bc89b/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/fight-tv/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/fight-tv/57709648-4aae-4320-b7d1-fabbb38180a2/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/fight-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="5453" tvg-name="HORROR TV" tvg-logo="https://a.jsrdn.com/hls/23064/horror-tv/logo_20260324_013632_68.png" group-title="IAB1",HORROR TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/horror-tv/5f06c386-c627-42e3-be96-1e409831c1e3/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/horror-tv/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/horror-tv/11523a31-d2df-4c56-834e-d96b2b795ad1/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/horror-tv/master.m3u8
 #EXTINF:-1 tvg-id="5455" tvg-name="TEST MY RIDE" tvg-logo="https://a.jsrdn.com/hls/23064/test-my-ride/logo_20260324_014622_68.png" group-title="IAB17",TEST MY RIDE
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/test-my-ride/087b1ed6-55e0-4328-8be5-8fb78b533f2f/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/test-my-ride/master.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/test-my-ride/5a63ab7e-ca3f-455a-ac41-29a12994a38c/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/test-my-ride/master.m3u8
 #EXTINF:-1 tvg-id="5456" tvg-name="THALAA TV" tvg-logo="https://a.jsrdn.com/hls/23064/thalaa-tv/logo_20260324_015038_68.png" group-title="IAB1",THALAA TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/thalaa-tv/d41e8f4a-e95f-46fa-a7f0-c0b66b37dd75/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/thalaa-tv/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/thalaa-tv/188251fb-c1aa-4a46-bc07-deae4548d50d/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/thalaa-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="5457" tvg-name="TOLLY TV" tvg-logo="https://a.jsrdn.com/hls/23064/tolly-tv/logo_20260324_015537_68.png" group-title="IAB1",TOLLY TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tolly-tv/cde861d2-e0b4-436c-8773-6dc338ae6e56/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tolly-tv/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tolly-tv/464b8c48-7a30-4063-98f3-b87acb7cdc98/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tolly-tv/manifest.m3u8
 #EXTINF:-1 tvg-id="5458" tvg-name="THE RING TV" tvg-logo="https://a.jsrdn.com/hls/23064/the-ring-tv/logo_20260324_015855_68.png" group-title="IAB17",THE RING TV
-https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/the-ring-tv/3b7a0cbf-4e5b-4926-a1aa-5f60a4e24cad/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/the-ring-tv/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/the-ring-tv/e9d50e2c-63fc-4cb7-a0a4-1f6a0e2c5bb6/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/the-ring-tv/manifest.m3u8
+#EXTINF:-1 tvg-id="5459" tvg-name="TyC Sports FAN" tvg-logo="https://a.jsrdn.com/hls/23064/tyc-sports-fan/logo_20260324_020328_68.png" group-title="IAB17",TyC Sports FAN
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/tyc-sports-fan/902586a3-1b9f-4aec-ab0a-e71db7d360db/0.m3u80bc8e8376bd8417a1b6761138aa41c26c7309312/tyc-sports-fan/manifest.m3u8
