@@ -1,6 +1,6 @@
 {
     "credits": "@kgkaku",
-    "updated": "2026-04-14 07:24:04",
+    "updated": "2026-04-14 13:16:19",
     "channels": [
         {
             "name": "BTV",
@@ -13,6 +13,12 @@
             "id": "BTV-News",
             "logo": "https://d38ll44lbmt52p.cloudfront.net/cms/channel_poster/1735648543857_Poster.jpg",
             "url": "https://www.btvlive.gov.bd/live/BTV-News/BD/d96eb7f4-83c2-4472-9597-3568390a8ebf/index.m3u8"
+        },
+        {
+            "name": "BTV Chattogram",
+            "id": "BTV-Chattogram",
+            "logo": "",
+            "url": "https://www.btvlive.gov.bd/live/BTV-Chattogram/BD/a707f2dc-9704-413a-a67c-17c64a77c350/index.m3u8"
         },
         {
             "name": "Sangsad Television",
